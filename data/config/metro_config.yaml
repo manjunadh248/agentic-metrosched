@@ -1,0 +1,196 @@
+# =============================================================================
+# MetroSched – Phase 1 configuration
+# -----------------------------------------------------------------------------
+# ALL VALUES BELOW ARE SYNTHETIC, ILLUSTRATIVE PARAMETERS.
+# They are NOT actual Kochi Metro Rail Limited (KMRL) operating data. They are
+# chosen to be plausible for a single-line urban metro so the simulation
+# behaves realistically, and every one of them can be changed here without
+# touching code.
+#
+# Units: all times are in SECONDS. Clock times are "HH:MM" strings (24 h) and
+# are converted to seconds-from-midnight by the loader.
+# =============================================================================
+
+simulation:
+  # Depot staff start preparing trains at this time (before revenue service).
+  depot_open: "04:00"
+  # First and last moment trains may be in revenue service. One simulation
+  # episode == one operating day between these two times.
+  service_start: "05:00"
+  service_end: "23:00"
+  # Granularity of all aggregated outputs (demand, occupancy, snapshots).
+  interval_s: 900
+  # How often the dispatch controller re-evaluates demand vs. trains in service.
+  decision_interval_s: 60
+
+fleet:
+  # Number of trainsets in the fleet. Validated to be within 20..30.
+  size: 25
+  # Prefix for train IDs -> TS01, TS02, ...
+  id_prefix: "TS"
+  # Allowed train states (fixed vocabulary used by the state machine).
+  states: ["Available", "Maintenance", "Inducted", "Running", "Delayed"]
+  # Passenger capacity of one trainset (crush-load style figure, synthetic).
+  train_capacity: 975
+  # Minimum preparation time (cleaning, brake test, crew sign-on) per train,
+  # sampled uniformly in [min, max] for each train each day.
+  min_prep_time_s: [1200, 2400]
+  # Preparation start offsets after depot_open are staggered by this much so
+  # that trains do not all become ready at the same instant.
+  prep_stagger_s: 120
+  # Time needed in the depot before a withdrawn train can be re-inducted.
+  depot_turnaround_s: 900
+  # Odometer since last maintenance (km), sampled per train per day.
+  km_since_maintenance: [0, 6000]
+  # Above this odometer value a train is flagged as requiring maintenance.
+  maintenance_km_threshold: 5500
+  # Number of discrete induction-priority levels (1 = highest priority).
+  priority_levels: 5
+
+depot:
+  # Stabling lines and berths per line; used to assign each train a depot
+  # location such as "SL03-B". Must hold the whole fleet.
+  stabling_lines: 10
+  berths_per_line: 3
+  # Depot exit tracks: each holds at most ONE train at a time.
+  # traversal_s = time to run the track; headway_s = safety separation that
+  # must elapse after a train clears it before the next may enter.
+  exit_tracks:
+    - {id: "EXIT-1", traversal_s: 90, headway_s: 120}
+    - {id: "EXIT-2", traversal_s: 105, headway_s: 120}
+  # Reception track used by trains returning to the depot (withdrawals).
+  # Kept separate from the exit route, as in most real depots, which also
+  # makes the induction route free of opposing moves (no deadlock).
+  reception_track: {id: "RECEPTION", traversal_s: 120, headway_s: 90}
+  # Induction capacity limits (signaller / shunting crew workload):
+  # rolling-hour cap on inductions …
+  max_inductions_per_hour: 8
+  # … and induction windows. Inductions are ONLY allowed inside a window and
+  # each window has its own maximum number of inductions.
+  induction_windows:
+    - {id: "W1-early",   start: "04:15", end: "10:30", max_inductions: 22}
+    - {id: "W2-midday",  start: "10:30", end: "15:30", max_inductions: 10}
+    - {id: "W3-evening", start: "15:30", end: "20:30", max_inductions: 16}
+    - {id: "W4-late",    start: "20:30", end: "22:30", max_inductions: 4}
+
+track:
+  # Shared single-track sections every inducting train must traverse in order
+  # between the depot exit tracks and the mainline entry points.
+  shared_sections:
+    - {id: "TRANSFER-LINE", traversal_s: 150, headway_s: 120}
+    - {id: "DEPOT-JUNCTION", traversal_s: 45, headway_s: 90}
+  # Mainline entry points (one per running direction). Through-running service
+  # trains also occupy these junctions, which creates realistic congestion.
+  entry_points:
+    - {id: "ENTRY-UP", direction: "UP", traversal_s: 40, headway_s: 120}
+    - {id: "ENTRY-DN", direction: "DN", traversal_s: 40, headway_s: 120}
+  # Time a through-running service train occupies an entry junction.
+  through_train_occupancy_s: 40
+
+platforms:
+  # Platforms at the depot-adjacent station where inducted trains are placed
+  # into service. Each platform holds one train.
+  count: 2
+  # Dwell of a newly inducted train at the platform before it enters service.
+  induction_dwell_s: 60
+  # Safety clearance after a train leaves a platform before the next arrives.
+  clearance_s: 60
+
+service:
+  # One-way running time end to end and terminal turnaround time. A full
+  # cycle (round trip) = 2 * (one_way_run_time_s + terminal_turnaround_s).
+  one_way_run_time_s: 2400
+  terminal_turnaround_s: 300
+  # Service-headway policy bounds (NOT the safety headway): demand-driven
+  # headway is clipped to [min_service_headway_s, max_service_headway_s].
+  min_service_headway_s: 300
+  max_service_headway_s: 900
+  # Target load factor used when converting demand into required trains.
+  target_load_factor: 0.85
+  # Trains always kept back in the depot as hot spares (never planned).
+  reserve_trains: 2
+  # Look-ahead used by the controller: trains are requested for the demand
+  # expected this many seconds from now (covers the induction route time).
+  induction_lookahead_s: 600
+  # Surplus trains are only withdrawn if demand over this horizon stays low.
+  withdrawal_lookahead_s: 1800
+  # Hysteresis: withdraw only when trains in service exceed need by > this.
+  withdrawal_hysteresis: 1
+
+demand:
+  # Base demand in passengers per hour per direction (pphpd) at off-peak.
+  base_pphpd: 2600
+  # Three daily peaks modelled as Gaussian bumps on top of the base level.
+  # center = clock time, width_s = standard deviation, amplitude = multiple of
+  # base added at the peak centre.
+  peaks:
+    - {name: "morning",   center: "08:45", width_s: 4200, amplitude: 1.9}
+    - {name: "afternoon", center: "13:30", width_s: 3600, amplitude: 0.55}
+    - {name: "evening",   center: "18:15", width_s: 4800, amplitude: 1.7}
+  # Demand ramps up from this fraction of base at service_start ...
+  early_morning_factor: 0.35
+  # ... and down to this fraction of base at service_end.
+  late_evening_factor: 0.30
+  # Multiplicative day-of-week factors (Mon..Sun).
+  weekday_factors: [1.00, 1.00, 1.00, 1.00, 1.05, 0.85, 0.70]
+  # Std. dev. of the multiplicative lognormal noise per interval.
+  noise_sigma: 0.06
+  # Labels used to tag intervals (for reporting): demand above this multiple
+  # of base is tagged "peak".
+  peak_threshold_factor: 1.6
+
+operations:
+  # Probability that a round trip suffers a random operational delay and the
+  # mean of that (exponentially distributed) delay.
+  trip_delay_prob: 0.04
+  trip_delay_mean_s: 150
+  # Probability a running train fails in service per round trip.
+  in_service_failure_prob: 0.004
+  # Repair duration range for trains entering maintenance during the day.
+  repair_time_s: [3600, 14400]
+
+scenarios:
+  # Day-type mix over the generated horizon. Each type appears at least once.
+  mix: {normal: 0.60, peak_demand: 0.25, disruption: 0.15}
+  # Parameters per scenario type. Probabilities are per train per day unless
+  # stated otherwise.
+  normal:
+    demand_multiplier: 1.00
+    prep_delay_prob: 0.08
+    prep_delay_mean_s: 420
+    depot_fault_prob: 0.02
+    trip_delay_factor: 1.0
+    through_traffic_factor: 1.0
+    extra_headway_s: 0
+    exit_track_closures: 0
+    section_blocks: 0
+    platform_closures: 0
+    induction_capacity_factor: 1.0
+  peak_demand:
+    demand_multiplier: 1.30
+    prep_delay_prob: 0.10
+    prep_delay_mean_s: 480
+    depot_fault_prob: 0.03
+    trip_delay_factor: 1.4
+    through_traffic_factor: 1.2
+    extra_headway_s: 0
+    exit_track_closures: 0
+    section_blocks: 0
+    platform_closures: 0
+    induction_capacity_factor: 1.0
+  disruption:
+    demand_multiplier: 1.00
+    prep_delay_prob: 0.25
+    prep_delay_mean_s: 900
+    depot_fault_prob: 0.08
+    trip_delay_factor: 2.5
+    through_traffic_factor: 1.5
+    extra_headway_s: 30
+    # Number of exit tracks closed for part of the day.
+    exit_track_closures: 1
+    # Number of temporary blocks placed on shared sections.
+    section_blocks: 2
+    platform_closures: 1
+    induction_capacity_factor: 0.75
+    # Duration range of any closure / block.
+    closure_duration_s: [1800, 7200]

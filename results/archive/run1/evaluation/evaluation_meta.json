@@ -1,0 +1,21 @@
+{
+  "episodes": 120,
+  "episodes_per_scenario": 40,
+  "schedulers": [
+    "FCFS",
+    "Heuristic",
+    "PPO"
+  ],
+  "seed_base": 900000000,
+  "seeds": [
+    1032010,
+    6380355,
+    10954026,
+    33922213,
+    66417881,
+    "..."
+  ],
+  "total_safety_violations": 0,
+  "runtime_s": 402.6,
+  "note": "All metrics computed from simulation runs on synthetic scenarios; not KMRL data."
+}

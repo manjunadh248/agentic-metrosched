@@ -1,0 +1,87 @@
+# =============================================================================
+# MetroSched – scheduler, reward, PPO training and evaluation configuration
+# All values are tunable; nothing here is KMRL data.
+# =============================================================================
+
+scheduling:
+  # Max induction decisions any scheduler may make at one decision time
+  # (identical for FCFS, heuristic and PPO, so the comparison is fair).
+  max_inductions_per_tick: 3
+
+heuristic:
+  # The heuristic anticipates demand this far ahead (s) …
+  lookahead_s: 720
+  # … and does not start a new induction while this many trains are already
+  # queued on the induction route, unless service is currently short.
+  max_queued_before_hold: 1
+  # Prefer healthy trains: choose by (induction_priority, readiness_time).
+  prefer_priority: true
+
+gym:
+  # Number of ready-train slots the agent can choose from (sorted by readiness).
+  candidate_slots: 6
+  # How the trained policy picks actions at validation and deployment time:
+  # "sample" = draw from the masked policy with an RNG seeded by the scenario
+  # seed (reproducible); "argmax" = most probable action.
+  action_selection: sample
+  # Training scenario mix (multiple operational scenarios).
+  train_scenario_mix: {normal: 0.45, peak_demand: 0.30, disruption: 0.25}
+
+# Multi-objective reward. Units: per train-minute for rates, per event otherwise.
+# Rationale for each weight is documented in docs/TECHNICAL_REPORT.md §4.
+reward:
+  shortfall_per_train_min: 0.30     # insufficient service coverage (dominant objective)
+  surplus_per_train_min: 0.03       # unnecessary train deployment beyond need + 1
+  waiting_per_train_min: 0.05       # trains queued on induction route (waiting time)
+  queue_event: 0.10                 # new track contention (attempted conflict, resolved by safety logic)
+  useful_induction: 0.50            # successful induction that fills a service gap
+  missed_opportunity: 1.00          # a required service slot expired unfilled
+  coverage_band_bonus: 0.05         # in-service within [required, required+1] -> right headway
+  delayed_train_per_min: 0.02       # running trains currently delayed
+  in_service_failure: 1.00          # train failed in service (worn train inducted)
+  invalid_action: 0.10              # action rejected by safety / readiness / capacity checks
+
+ppo:
+  # maskable_ppo = PPO with invalid-action masking (sb3-contrib); "ppo" = plain
+  # SB3 PPO where infeasible actions are rejected by the env and penalised.
+  algorithm: maskable_ppo
+  learning_rate: 0.00003
+  n_steps: 2048
+  batch_size: 256
+  n_epochs: 5
+  # stop an update early if the policy moves too far from the data-collecting policy
+  target_kl: 0.015
+  gamma: 0.995
+  gae_lambda: 0.95
+  clip_range: 0.1
+  ent_coef: 0.0
+  vf_coef: 0.5
+  net_arch: [128, 128]
+
+# Behaviour-cloning warm start from the heuristic (training seeds only), then PPO.
+pretraining:
+  enabled: true
+  episodes: 60
+  epochs: 40
+  batch_size: 512
+  lr: 0.001
+
+training:
+  total_timesteps: 400000
+  n_envs: 2
+  seed: 7
+  # Training episodes draw seeds from [train_seed_low, train_seed_high).
+  train_seed_low: 0
+  train_seed_high: 1000000
+  eval_every_steps: 20000
+  eval_episodes: 12
+  checkpoint_every_steps: 50000
+  # Validation seeds used during training (model selection) – disjoint from both
+  # training seeds and the final evaluation seeds.
+  validation_seed_base: 500000000
+
+evaluation:
+  # Final evaluation on UNSEEN seeds: never used in training or validation.
+  seed_base: 900000000
+  # Episodes per scenario type (3 types -> 120 episodes total).
+  episodes_per_scenario: 40

@@ -1,0 +1,1446 @@
+day,train_id,delay_type,start_time_s,delay_s,detail,start_time
+0,TS01,preparation,16680,1043,,04:38:00
+0,TS10,preparation,15720,626,,04:22:00
+0,TS11,preparation,14400,47,,04:00:00
+0,TS18,preparation,17160,2,,04:46:00
+0,TS19,preparation,16320,106,,04:32:00
+0,TS21,preparation,16920,1105,,04:42:00
+0,TS23,preparation,15840,136,,04:24:00
+0,TS25,preparation,16560,444,,04:36:00
+0,TS04,induction_track_wait,16200,285,ENTRY-DN,04:30:00
+0,TS13,induction_track_wait,16680,120,ENTRY-UP,04:38:00
+0,TS24,induction_track_wait,16860,225,ENTRY-UP,04:41:00
+0,TS08,induction_track_wait,16980,420,ENTRY-DN,04:43:00
+0,TS22,induction_track_wait,17400,285,ENTRY-UP,04:50:00
+0,TS04,junction_congestion,24925,150,ENTRY-UP,06:55:25
+0,TS02,induction_track_wait,24600,285,ENTRY-DN,06:50:00
+0,TS13,junction_congestion,25225,150,ENTRY-DN,07:00:25
+0,TS24,in_service,25525,72,leg UP,07:05:25
+0,TS07,junction_congestion,26725,150,ENTRY-UP,07:25:25
+0,TS23,junction_congestion,27625,150,ENTRY-DN,07:40:25
+0,TS04,junction_congestion,27775,210,ENTRY-DN,07:42:55
+0,TS17,induction_track_wait,27300,285,ENTRY-UP,07:35:00
+0,TS02,junction_congestion,27925,150,ENTRY-UP,07:45:25
+0,TS13,junction_congestion,28075,210,ENTRY-UP,07:47:55
+0,TS24,junction_congestion,28297,198,ENTRY-UP,07:51:37
+0,TS08,junction_congestion,28525,150,ENTRY-DN,07:55:25
+0,TS07,junction_congestion,29575,60,ENTRY-DN,08:12:55
+0,TS10,junction_congestion,30325,150,ENTRY-UP,08:25:25
+0,TS23,junction_congestion,30475,210,ENTRY-UP,08:27:55
+0,TS03,induction_track_wait,30000,285,ENTRY-DN,08:20:00
+0,TS17,junction_congestion,30625,150,ENTRY-DN,08:30:25
+0,TS04,junction_congestion,30685,210,ENTRY-UP,08:31:25
+0,TS02,junction_congestion,30775,210,ENTRY-DN,08:32:55
+0,TS13,junction_congestion,30985,210,ENTRY-DN,08:36:25
+0,TS20,induction_track_wait,30000,820,ENTRY-UP,08:20:00
+0,TS16,junction_congestion,31225,70,ENTRY-UP,08:40:25
+0,TS24,junction_congestion,31195,210,ENTRY-DN,08:39:55
+0,TS08,junction_congestion,31375,130,ENTRY-UP,08:42:55
+0,TS22,junction_congestion,31525,90,ENTRY-DN,08:45:25
+0,TS10,junction_congestion,33175,60,ENTRY-DN,09:12:55
+0,TS23,junction_congestion,33385,60,ENTRY-DN,09:16:25
+0,TS17,junction_congestion,33475,60,ENTRY-UP,09:17:55
+0,TS04,junction_congestion,33595,60,ENTRY-DN,09:19:55
+0,TS02,junction_congestion,33685,60,ENTRY-UP,09:21:25
+0,TS20,junction_congestion,33845,20,ENTRY-DN,09:24:05
+0,TS13,junction_congestion,33895,60,ENTRY-UP,09:24:55
+0,TS16,junction_congestion,33995,80,ENTRY-DN,09:26:35
+0,TS24,junction_congestion,34105,60,ENTRY-UP,09:28:25
+0,TS08,junction_congestion,34205,80,ENTRY-DN,09:30:05
+0,TS07,in_service,35035,103,leg UP,09:43:55
+0,TS23,in_service,36145,44,leg DN,10:02:25
+0,TS16,reception_wait,36775,30,RECEPTION,10:12:55
+0,TS03,in_service,41425,104,leg UP,11:30:25
+0,TS13,in_service,50155,36,leg DN,13:55:55
+0,TS24,junction_congestion,50365,36,ENTRY-UP,13:59:25
+0,TS05,in_service,51925,73,leg DN,14:25:25
+0,TS14,in_service,51925,1,leg UP,14:25:25
+0,TS10,junction_congestion,52135,73,ENTRY-UP,14:28:55
+0,TS01,in_service,52825,32,leg DN,14:40:25
+0,TS25,junction_congestion,59125,150,ENTRY-DN,16:25:25
+0,TS19,junction_congestion,61825,150,ENTRY-DN,17:10:25
+0,TS25,junction_congestion,61975,60,ENTRY-UP,17:12:55
+0,TS05,junction_congestion,62798,77,ENTRY-UP,17:26:38
+0,TS01,junction_congestion,63657,118,ENTRY-UP,17:40:57
+0,TS24,in_service,63901,24,leg UP,17:45:01
+0,TS12,induction_track_wait,63300,385,ENTRY-UP,17:35:00
+0,TS19,junction_congestion,64675,60,ENTRY-UP,17:57:55
+0,TS05,junction_congestion,65575,60,ENTRY-DN,18:12:55
+0,TS01,junction_congestion,66475,60,ENTRY-DN,18:27:55
+0,TS12,junction_congestion,66725,20,ENTRY-DN,18:32:05
+0,TS05,in_service,73735,48,leg DN,20:28:55
+0,TS24,in_service,74725,988,leg UP,20:45:25
+1,TS06,preparation,17160,941,,04:46:00
+1,TS07,preparation,15840,678,,04:24:00
+1,TS14,preparation,17280,206,,04:48:00
+1,TS20,preparation,16320,382,,04:32:00
+1,TS22,preparation,16560,1431,,04:36:00
+1,TS24,preparation,15480,303,,04:18:00
+1,TS25,preparation,15240,937,,04:14:00
+1,TS12,induction_track_wait,16740,60,ENTRY-DN,04:39:00
+1,TS05,induction_track_wait,16800,285,ENTRY-UP,04:40:00
+1,TS11,induction_track_wait,16800,600,ENTRY-DN,04:40:00
+1,TS18,induction_track_wait,16860,825,ENTRY-DN,04:41:00
+1,TS01,induction_track_wait,16920,1080,ENTRY-DN,04:42:00
+1,TS11,junction_congestion,20425,150,ENTRY-UP,05:40:25
+1,TS18,junction_congestion,20725,60,ENTRY-UP,05:45:25
+1,TS11,junction_congestion,23275,60,ENTRY-DN,06:27:55
+1,TS18,junction_congestion,23485,60,ENTRY-DN,06:31:25
+1,TS01,junction_congestion,23725,30,ENTRY-DN,06:35:25
+1,TS10,induction_track_wait,24600,285,ENTRY-UP,06:50:00
+1,TS12,junction_congestion,25225,150,ENTRY-UP,07:00:25
+1,TS11,in_service,26035,4,leg DN,07:13:55
+1,TS02,induction_track_wait,25500,285,ENTRY-DN,07:05:00
+1,TS18,junction_congestion,26245,4,ENTRY-UP,07:17:25
+1,TS01,junction_congestion,26455,4,ENTRY-UP,07:20:55
+1,TS25,junction_congestion,27625,150,ENTRY-UP,07:40:25
+1,TS12,junction_congestion,28075,60,ENTRY-DN,07:47:55
+1,TS19,junction_congestion,28525,150,ENTRY-UP,07:55:25
+1,TS02,junction_congestion,28825,60,ENTRY-UP,08:00:25
+1,TS16,in_service,29425,491,leg DN,08:10:25
+1,TS25,junction_congestion,30475,60,ENTRY-DN,08:27:55
+1,TS19,junction_congestion,31375,60,ENTRY-DN,08:42:55
+1,TS02,junction_congestion,31585,60,ENTRY-DN,08:46:25
+1,TS01,in_service,31859,381,leg DN,08:50:59
+1,TS25,reception_wait,35935,30,RECEPTION,09:58:55
+1,TS16,in_service,43416,27,leg UP,12:03:36
+1,TS07,in_service,51925,92,leg UP,14:25:25
+1,TS11,in_service,53039,255,leg DN,14:43:59
+1,TS20,in_service,55525,1,leg DN,15:25:25
+1,TS19,junction_congestion,55735,1,ENTRY-UP,15:28:55
+1,TS02,junction_congestion,55945,1,ENTRY-UP,15:32:25
+1,TS07,in_service,57417,171,leg UP,15:56:57
+1,TS08,junction_congestion,59125,150,ENTRY-DN,16:25:25
+1,TS15,induction_track_wait,58800,385,ENTRY-DN,16:20:00
+1,TS16,junction_congestion,59643,32,ENTRY-DN,16:34:03
+1,TS04,junction_congestion,61825,150,ENTRY-UP,17:10:25
+1,TS08,junction_congestion,61975,210,ENTRY-UP,17:12:55
+1,TS15,junction_congestion,62225,170,ENTRY-UP,17:17:05
+1,TS16,junction_congestion,62375,230,ENTRY-UP,17:19:35
+1,TS20,junction_congestion,63626,149,ENTRY-DN,17:40:26
+1,TS19,junction_congestion,63836,149,ENTRY-DN,17:43:56
+1,TS02,junction_congestion,64046,149,ENTRY-DN,17:47:26
+1,TS04,junction_congestion,64675,60,ENTRY-DN,17:57:55
+1,TS08,junction_congestion,64885,60,ENTRY-DN,18:01:25
+1,TS15,junction_congestion,65095,60,ENTRY-DN,18:04:55
+1,TS16,junction_congestion,65305,60,ENTRY-DN,18:08:25
+1,TS20,junction_congestion,66475,60,ENTRY-UP,18:27:55
+1,TS19,junction_congestion,66685,60,ENTRY-UP,18:31:25
+1,TS06,induction_track_wait,63300,3355,ENTRY-UP,17:35:00
+1,TS02,junction_congestion,66895,250,ENTRY-UP,18:34:55
+1,TS14,junction_congestion,67225,130,ENTRY-UP,18:40:25
+1,TS04,junction_congestion,67435,130,ENTRY-UP,18:43:55
+1,TS08,junction_congestion,67645,130,ENTRY-UP,18:47:25
+1,TS15,junction_congestion,67855,130,ENTRY-UP,18:50:55
+1,TS16,junction_congestion,68065,130,ENTRY-UP,18:54:25
+1,TS02,junction_congestion,69845,60,ENTRY-DN,19:24:05
+1,TS14,junction_congestion,70055,60,ENTRY-DN,19:27:35
+1,TS11,in_service,72194,235,leg UP,20:03:14
+1,TS11,reception_wait,72429,206,RECEPTION,20:07:09
+1,TS08,in_service,78575,52,leg DN,21:49:35
+2,TS02,preparation,15480,1394,,04:18:00
+2,TS03,preparation,14520,203,,04:02:00
+2,TS05,preparation,15960,1126,,04:26:00
+2,TS17,preparation,15000,1211,,04:10:00
+2,TS19,preparation,16800,186,,04:40:00
+2,TS21,preparation,17040,111,,04:44:00
+2,TS23,preparation,15720,982,,04:22:00
+2,TS25,preparation,15240,1196,,04:14:00
+2,TS24,induction_track_wait,16440,285,ENTRY-UP,04:34:00
+2,TS01,induction_track_wait,16800,240,ENTRY-UP,04:40:00
+2,TS20,induction_track_wait,17220,105,ENTRY-DN,04:47:00
+2,TS09,induction_track_wait,17220,420,ENTRY-UP,04:47:00
+2,TS08,induction_track_wait,23700,285,ENTRY-UP,06:35:00
+2,TS01,in_service,25465,67,leg UP,07:04:25
+2,TS11,induction_track_wait,25500,190,ENTRY-UP,07:05:00
+2,TS17,induction_track_wait,26400,3864,ENTRY-DN,07:20:00
+2,TS24,junction_congestion,30565,174,ENTRY-DN,08:29:25
+2,TS15,induction_track_wait,26400,4149,ENTRY-UP,07:20:00
+2,TS01,junction_congestion,30932,17,ENTRY-DN,08:35:32
+2,TS07,induction_track_wait,28200,2674,ENTRY-DN,07:50:00
+2,TS14,induction_track_wait,30000,1149,ENTRY-DN,08:20:00
+2,TS09,junction_congestion,31465,174,ENTRY-DN,08:44:25
+2,TS13,induction_track_wait,30000,1464,ENTRY-UP,08:20:00
+2,TS25,in_service,33025,6,leg DN,09:10:25
+2,TS24,junction_congestion,33439,60,ENTRY-UP,09:17:19
+2,TS09,junction_congestion,34339,60,ENTRY-UP,09:32:19
+2,TS15,in_service,44389,22,leg UP,12:19:49
+2,TS03,in_service,54265,341,leg DN,15:04:25
+2,TS25,junction_congestion,54631,185,ENTRY-UP,15:10:31
+2,TS02,induction_track_wait,57900,190,ENTRY-UP,16:05:00
+2,TS04,induction_track_wait,57900,365,ENTRY-UP,16:05:00
+2,TS16,induction_track_wait,60600,190,ENTRY-DN,16:50:00
+2,TS02,junction_congestion,61115,150,ENTRY-DN,16:58:35
+2,TS10,induction_track_wait,60600,575,ENTRY-DN,16:50:00
+2,TS04,junction_congestion,61305,360,ENTRY-DN,17:01:45
+2,TS23,junction_congestion,62725,150,ENTRY-UP,17:25:25
+2,TS02,junction_congestion,63965,60,ENTRY-UP,17:46:05
+2,TS10,junction_congestion,64215,20,ENTRY-UP,17:50:15
+2,TS04,junction_congestion,64365,80,ENTRY-UP,17:52:45
+2,TS18,junction_congestion,65425,150,ENTRY-DN,18:10:25
+2,TS23,junction_congestion,65575,210,ENTRY-DN,18:12:55
+2,TS18,junction_congestion,68275,60,ENTRY-UP,18:57:55
+2,TS23,junction_congestion,68485,60,ENTRY-UP,19:01:25
+2,TS15,junction_congestion,68711,44,ENTRY-UP,19:05:11
+2,TS18,reception_wait,71035,30,RECEPTION,19:43:55
+2,TS23,reception_wait,71245,60,RECEPTION,19:47:25
+2,TS08,in_service,72925,46,leg DN,20:15:25
+2,TS21,reception_wait,75325,160,RECEPTION,20:55:25
+2,TS03,in_service,81606,275,leg DN,22:40:06
+2,TS03,junction_congestion,81881,145,ENTRY-UP,22:44:41
+2,TS24,junction_congestion,82099,137,ENTRY-UP,22:48:19
+2,TS15,in_service,82255,338,leg UP,22:50:55
+2,TS15,junction_congestion,82593,82,ENTRY-DN,22:56:33
+3,TS20,preparation,15000,463,,04:10:00
+3,TS09,induction_track_wait,16440,135,ENTRY-DN,04:34:00
+3,TS21,induction_track_wait,16560,300,ENTRY-UP,04:36:00
+3,TS23,induction_track_wait,16800,315,ENTRY-UP,04:40:00
+3,TS07,induction_track_wait,16620,780,ENTRY-DN,04:37:00
+3,TS16,induction_track_wait,16800,855,ENTRY-DN,04:40:00
+3,TS01,induction_track_wait,24600,40,ENTRY-DN,06:50:00
+3,TS07,junction_congestion,25845,100,ENTRY-UP,07:10:45
+3,TS25,induction_track_wait,25500,255,ENTRY-DN,07:05:00
+3,TS23,in_service,28275,101,leg DN,07:51:15
+3,TS20,junction_congestion,28545,100,ENTRY-DN,07:55:45
+3,TS07,junction_congestion,28645,160,ENTRY-DN,07:57:25
+3,TS03,induction_track_wait,28200,255,ENTRY-UP,07:50:00
+3,TS25,junction_congestion,28815,100,ENTRY-UP,08:00:15
+3,TS16,junction_congestion,28815,150,ENTRY-DN,08:00:15
+3,TS20,junction_congestion,31345,60,ENTRY-UP,08:42:25
+3,TS07,junction_congestion,31505,60,ENTRY-UP,08:45:05
+3,TS25,junction_congestion,31615,60,ENTRY-DN,08:46:55
+3,TS16,junction_congestion,31665,60,ENTRY-UP,08:47:45
+3,TS03,in_service,39615,3,leg DN,11:00:15
+3,TS16,in_service,45225,325,leg UP,12:33:45
+3,TS15,induction_track_wait,48000,125,ENTRY-UP,13:20:00
+3,TS14,induction_track_wait,57900,51,ENTRY-DN,16:05:00
+3,TS18,induction_track_wait,60600,51,ENTRY-UP,16:50:00
+3,TS14,junction_congestion,60996,100,ENTRY-UP,16:56:36
+3,TS08,induction_track_wait,60600,365,ENTRY-DN,16:50:00
+3,TS07,junction_congestion,61265,160,ENTRY-DN,17:01:05
+3,TS16,in_service,61750,86,leg UP,17:09:10
+3,TS15,junction_congestion,61970,26,ENTRY-DN,17:12:50
+3,TS09,junction_congestion,62835,10,ENTRY-UP,17:27:15
+3,TS14,junction_congestion,63796,60,ENTRY-DN,17:43:16
+3,TS07,junction_congestion,64125,60,ENTRY-UP,17:48:45
+3,TS16,junction_congestion,64536,109,ENTRY-UP,17:55:36
+3,TS15,junction_congestion,64696,109,ENTRY-UP,17:58:16
+3,TS09,junction_congestion,65545,60,ENTRY-DN,18:12:25
+3,TS16,junction_congestion,67345,60,ENTRY-DN,18:42:25
+3,TS15,junction_congestion,67505,60,ENTRY-DN,18:45:05
+3,TS07,reception_wait,72285,50,RECEPTION,20:04:45
+3,TS20,in_service,80005,26,leg DN,22:13:25
+4,TS01,preparation,17160,1790,,04:46:00
+4,TS08,preparation,15480,891,,04:18:00
+4,TS11,preparation,16200,545,,04:30:00
+4,TS18,preparation,16920,620,,04:42:00
+4,TS21,preparation,16080,404,,04:28:00
+4,TS19,induction_track_wait,16620,60,ENTRY-UP,04:37:00
+4,TS03,induction_track_wait,16800,165,ENTRY-UP,04:40:00
+4,TS09,induction_track_wait,17040,240,ENTRY-DN,04:44:00
+4,TS25,induction_track_wait,17040,540,ENTRY-DN,04:44:00
+4,TS05,induction_track_wait,22800,130,ENTRY-DN,06:20:00
+4,TS25,junction_congestion,23305,100,ENTRY-DN,06:28:25
+4,TS17,induction_track_wait,25500,130,ENTRY-UP,07:05:00
+4,TS05,junction_congestion,25955,150,ENTRY-UP,07:12:35
+4,TS25,junction_congestion,26105,210,ENTRY-UP,07:15:05
+4,TS02,junction_congestion,26725,150,ENTRY-DN,07:25:25
+4,TS15,induction_track_wait,26400,385,ENTRY-DN,07:20:00
+4,TS19,junction_congestion,27805,30,ENTRY-UP,07:43:25
+4,TS17,in_service,28655,48,leg UP,07:57:35
+4,TS10,induction_track_wait,28200,130,ENTRY-DN,07:50:00
+4,TS17,junction_congestion,28703,102,ENTRY-DN,07:58:23
+4,TS05,junction_congestion,28805,210,ENTRY-DN,08:00:05
+4,TS25,junction_congestion,29015,210,ENTRY-DN,08:03:35
+4,TS02,in_service,29575,191,leg DN,08:12:55
+4,TS06,junction_congestion,29425,150,ENTRY-UP,08:10:25
+4,TS02,junction_congestion,29766,19,ENTRY-UP,08:16:06
+4,TS15,junction_congestion,29825,170,ENTRY-UP,08:17:05
+4,TS24,junction_congestion,30325,150,ENTRY-DN,08:25:25
+4,TS19,junction_congestion,30535,150,ENTRY-DN,08:28:55
+4,TS03,junction_congestion,30805,90,ENTRY-DN,08:33:25
+4,TS04,induction_track_wait,30900,130,ENTRY-UP,08:35:00
+4,TS10,junction_congestion,31355,150,ENTRY-UP,08:42:35
+4,TS17,junction_congestion,31505,210,ENTRY-UP,08:45:05
+4,TS05,junction_congestion,31715,210,ENTRY-UP,08:48:35
+4,TS16,in_service,32125,4,leg UP,08:55:25
+4,TS25,junction_congestion,31925,210,ENTRY-UP,08:52:05
+4,TS06,junction_congestion,32275,64,ENTRY-DN,08:57:55
+4,TS22,junction_congestion,32185,160,ENTRY-UP,08:56:25
+4,TS02,junction_congestion,32485,64,ENTRY-DN,09:01:25
+4,TS15,junction_congestion,32695,64,ENTRY-DN,09:04:55
+4,TS13,junction_congestion,32905,64,ENTRY-DN,09:08:25
+4,TS10,junction_congestion,34205,60,ENTRY-DN,09:30:05
+4,TS17,junction_congestion,34415,60,ENTRY-DN,09:33:35
+4,TS05,junction_congestion,34625,60,ENTRY-DN,09:37:05
+4,TS25,junction_congestion,34835,60,ENTRY-DN,09:40:35
+4,TS22,junction_congestion,35045,60,ENTRY-DN,09:44:05
+4,TS19,in_service,36085,332,leg UP,10:01:25
+4,TS03,in_service,36295,11,leg UP,10:04:55
+4,TS09,reception_wait,36505,152,RECEPTION,10:08:25
+4,TS04,reception_wait,36755,142,RECEPTION,10:12:35
+4,TS16,reception_wait,40229,96,RECEPTION,11:10:29
+4,TS22,reception_wait,40505,60,RECEPTION,11:15:05
+4,TS07,induction_track_wait,46200,194,ENTRY-UP,12:50:00
+4,TS24,in_service,49375,106,leg DN,13:42:55
+4,TS15,in_service,51659,273,leg DN,14:20:59
+4,TS15,junction_congestion,51932,147,ENTRY-UP,14:25:32
+4,TS07,junction_congestion,52119,170,ENTRY-UP,14:28:39
+4,TS06,in_service,56639,245,leg DN,15:43:59
+4,TS21,induction_track_wait,57900,3920,ENTRY-DN,16:05:00
+4,TS12,induction_track_wait,58800,3185,ENTRY-UP,16:20:00
+4,TS06,junction_congestion,62284,176,ENTRY-UP,17:18:04
+4,TS18,induction_track_wait,59700,2670,ENTRY-UP,16:35:00
+4,TS13,junction_congestion,62669,191,ENTRY-UP,17:24:29
+4,TS14,induction_track_wait,61500,1085,ENTRY-DN,17:05:00
+4,TS24,junction_congestion,62981,79,ENTRY-DN,17:29:41
+4,TS15,junction_congestion,62879,191,ENTRY-UP,17:27:59
+4,TS07,junction_congestion,63089,191,ENTRY-UP,17:31:29
+4,TS01,induction_track_wait,61500,1690,ENTRY-UP,17:05:00
+4,TS08,junction_congestion,63625,55,ENTRY-UP,17:40:25
+4,TS11,induction_track_wait,62400,955,ENTRY-DN,17:20:00
+4,TS12,in_service,65010,5,leg UP,18:03:30
+4,TS06,junction_congestion,65160,65,ENTRY-DN,18:06:00
+4,TS18,junction_congestion,65410,25,ENTRY-DN,18:10:10
+4,TS13,junction_congestion,65560,85,ENTRY-DN,18:12:40
+4,TS24,junction_congestion,65760,60,ENTRY-UP,18:16:00
+4,TS15,junction_congestion,65770,85,ENTRY-DN,18:16:10
+4,TS07,junction_congestion,65980,85,ENTRY-DN,18:19:40
+4,TS01,junction_congestion,66230,45,ENTRY-DN,18:23:50
+4,TS11,junction_congestion,66395,80,ENTRY-UP,18:26:35
+4,TS08,junction_congestion,66380,105,ENTRY-DN,18:26:20
+4,TS10,junction_congestion,66665,30,ENTRY-DN,18:31:05
+4,TS06,in_service,67925,107,leg DN,18:52:05
+4,TS18,junction_congestion,68135,107,ENTRY-UP,18:55:35
+4,TS13,junction_congestion,68345,107,ENTRY-UP,18:59:05
+4,TS15,junction_congestion,68555,107,ENTRY-UP,19:02:35
+4,TS07,junction_congestion,68765,107,ENTRY-UP,19:06:05
+4,TS01,junction_congestion,68975,107,ENTRY-UP,19:09:35
+4,TS11,reception_wait,69175,90,RECEPTION,19:12:55
+4,TS08,junction_congestion,69185,107,ENTRY-UP,19:13:05
+4,TS10,junction_congestion,69395,107,ENTRY-UP,19:16:35
+4,TS01,reception_wait,71782,30,RECEPTION,19:56:22
+4,TS21,in_service,72945,88,leg UP,20:15:45
+4,TS08,in_service,80092,1,leg DN,22:14:52
+4,TS10,junction_congestion,80302,1,ENTRY-UP,22:18:22
+5,TS06,preparation,14640,1030,,04:04:00
+5,TS08,preparation,17160,324,,04:46:00
+5,TS23,preparation,16680,916,,04:38:00
+5,TS09,induction_track_wait,16440,75,ENTRY-DN,04:34:00
+5,TS04,induction_track_wait,16680,120,ENTRY-DN,04:38:00
+5,TS13,induction_track_wait,16920,135,ENTRY-UP,04:42:00
+5,TS01,induction_track_wait,17040,300,ENTRY-DN,04:44:00
+5,TS22,induction_track_wait,17040,570,ENTRY-UP,04:44:00
+5,TS06,induction_track_wait,25500,160,ENTRY-UP,07:05:00
+5,TS18,induction_track_wait,27300,255,ENTRY-DN,07:35:00
+5,TS04,junction_congestion,27945,70,ENTRY-DN,07:45:45
+5,TS10,junction_congestion,29445,100,ENTRY-UP,08:10:45
+5,TS15,induction_track_wait,29100,255,ENTRY-DN,08:05:00
+5,TS04,junction_congestion,30715,60,ENTRY-UP,08:31:55
+5,TS10,junction_congestion,32245,60,ENTRY-DN,08:57:25
+5,TS13,in_service,49815,24,leg DN,13:50:15
+5,TS25,induction_track_wait,58800,255,ENTRY-DN,16:20:00
+5,TS19,junction_congestion,61845,100,ENTRY-UP,17:10:45
+5,TS02,induction_track_wait,61500,255,ENTRY-DN,17:05:00
+5,TS15,junction_congestion,62115,100,ENTRY-DN,17:15:15
+5,TS04,in_service,63175,1,leg DN,17:32:55
+5,TS13,in_service,63339,68,leg UP,17:35:39
+5,TS19,junction_congestion,64645,60,ENTRY-DN,17:57:25
+5,TS25,junction_congestion,64815,50,ENTRY-DN,18:00:15
+5,TS15,junction_congestion,64915,60,ENTRY-UP,18:01:55
+6,TS03,preparation,17040,323,,04:44:00
+6,TS09,preparation,14880,1026,,04:08:00
+6,TS10,preparation,15600,44,,04:20:00
+6,TS18,preparation,15480,416,,04:18:00
+6,TS20,preparation,15120,261,,04:12:00
+6,TS22,preparation,15240,196,,04:14:00
+6,TS23,preparation,16920,105,,04:42:00
+6,TS04,induction_track_wait,16140,60,ENTRY-DN,04:29:00
+6,TS21,induction_track_wait,16860,105,ENTRY-DN,04:41:00
+6,TS16,induction_track_wait,16920,360,ENTRY-UP,04:42:00
+6,TS08,induction_track_wait,17100,465,ENTRY-DN,04:45:00
+6,TS21,in_service,20005,406,leg DN,05:33:25
+6,TS08,junction_congestion,20605,16,ENTRY-UP,05:43:25
+6,TS10,junction_congestion,27625,150,ENTRY-DN,07:40:25
+6,TS14,induction_track_wait,27300,415,ENTRY-UP,07:35:00
+6,TS10,junction_congestion,30475,60,ENTRY-UP,08:27:55
+6,TS19,in_service,54625,51,leg UP,15:10:25
+6,TS19,junction_congestion,62776,99,ENTRY-UP,17:26:16
+6,TS14,in_service,63155,63,leg UP,17:32:35
+6,TS08,junction_congestion,63821,14,ENTRY-UP,17:43:41
+6,TS19,junction_congestion,65575,60,ENTRY-DN,18:12:55
+6,TS19,in_service,73735,386,leg DN,20:28:55
+7,TS12,induction_track_wait,16440,195,ENTRY-DN,04:34:00
+7,TS02,induction_track_wait,16440,480,ENTRY-UP,04:34:00
+7,TS23,induction_track_wait,16620,555,ENTRY-UP,04:37:00
+7,TS22,induction_track_wait,16620,840,ENTRY-DN,04:37:00
+7,TS19,induction_track_wait,16740,975,ENTRY-DN,04:39:00
+7,TS20,induction_track_wait,21900,100,ENTRY-UP,06:05:00
+7,TS22,junction_congestion,23197,48,ENTRY-DN,06:26:37
+7,TS11,induction_track_wait,24600,100,ENTRY-DN,06:50:00
+7,TS20,junction_congestion,25037,108,ENTRY-DN,06:57:17
+7,TS01,induction_track_wait,24600,355,ENTRY-UP,06:50:00
+7,TS15,junction_congestion,25837,108,ENTRY-UP,07:10:37
+7,TS22,junction_congestion,25945,168,ENTRY-UP,07:12:25
+7,TS03,induction_track_wait,25500,481,ENTRY-UP,07:05:00
+7,TS19,junction_congestion,26167,274,ENTRY-UP,07:16:07
+7,TS10,junction_congestion,26737,108,ENTRY-DN,07:25:37
+7,TS25,induction_track_wait,26400,313,ENTRY-DN,07:20:00
+7,TS20,junction_congestion,27845,60,ENTRY-UP,07:44:05
+7,TS02,junction_congestion,28057,16,ENTRY-UP,07:47:37
+7,TS08,junction_congestion,28537,108,ENTRY-DN,07:55:37
+7,TS15,junction_congestion,28645,168,ENTRY-DN,07:57:25
+7,TS22,junction_congestion,28813,168,ENTRY-DN,08:00:13
+7,TS03,junction_congestion,29033,116,ENTRY-DN,08:03:53
+7,TS19,junction_congestion,29141,176,ENTRY-DN,08:05:41
+7,TS10,junction_congestion,29545,60,ENTRY-UP,08:12:25
+7,TS25,junction_congestion,29765,8,ENTRY-UP,08:16:05
+7,TS04,induction_track_wait,30000,305,ENTRY-DN,08:20:00
+7,TS20,junction_congestion,30605,160,ENTRY-DN,08:30:05
+7,TS02,junction_congestion,30773,160,ENTRY-DN,08:32:53
+7,TS23,junction_congestion,31027,74,ENTRY-DN,08:37:07
+7,TS08,junction_congestion,31345,60,ENTRY-UP,08:42:25
+7,TS15,junction_congestion,31513,60,ENTRY-UP,08:45:13
+7,TS22,junction_congestion,31681,60,ENTRY-UP,08:48:01
+7,TS03,junction_congestion,31849,60,ENTRY-UP,08:50:49
+7,TS19,junction_congestion,32017,60,ENTRY-UP,08:53:37
+7,TS12,junction_congestion,33187,18,ENTRY-DN,09:13:07
+7,TS20,junction_congestion,33465,60,ENTRY-UP,09:17:45
+7,TS02,junction_congestion,33633,60,ENTRY-UP,09:20:33
+7,TS23,junction_congestion,33801,60,ENTRY-UP,09:23:21
+7,TS13,in_service,37537,339,leg UP,10:25:37
+7,TS01,in_service,38807,49,leg UP,10:46:47
+7,TS01,reception_wait,38856,111,RECEPTION,10:47:36
+7,TS03,in_service,42709,329,leg DN,11:51:49
+7,TS03,junction_congestion,43038,7,ENTRY-UP,11:57:18
+7,TS05,induction_track_wait,47040,36,ENTRY-DN,13:04:00
+7,TS09,induction_track_wait,48000,160,ENTRY-UP,13:20:00
+7,TS03,junction_congestion,48445,160,ENTRY-UP,13:27:25
+7,TS11,in_service,54737,328,leg DN,15:12:17
+7,TS17,junction_congestion,59137,108,ENTRY-DN,16:25:37
+7,TS10,junction_congestion,59305,108,ENTRY-DN,16:28:25
+7,TS25,junction_congestion,59473,108,ENTRY-DN,16:31:13
+7,TS07,induction_track_wait,59700,255,ENTRY-UP,16:35:00
+7,TS12,induction_track_wait,59700,648,ENTRY-UP,16:35:00
+7,TS02,junction_congestion,60693,100,ENTRY-UP,16:51:33
+7,TS05,junction_congestion,60913,48,ENTRY-UP,16:55:13
+7,TS17,junction_congestion,61945,60,ENTRY-UP,17:12:25
+7,TS16,induction_track_wait,61500,160,ENTRY-DN,17:05:00
+7,TS22,induction_track_wait,61500,373,ENTRY-UP,17:05:00
+7,TS10,junction_congestion,62113,220,ENTRY-UP,17:15:13
+7,TS25,junction_congestion,62281,220,ENTRY-UP,17:18:01
+7,TS21,junction_congestion,62737,108,ENTRY-DN,17:25:37
+7,TS07,junction_congestion,63007,6,ENTRY-DN,17:30:07
+7,TS11,junction_congestion,63165,16,ENTRY-DN,17:32:45
+7,TS02,junction_congestion,63493,60,ENTRY-DN,17:38:13
+7,TS05,junction_congestion,63661,60,ENTRY-DN,17:41:01
+7,TS19,in_service,64477,2,leg DN,17:54:37
+7,TS06,induction_track_wait,64200,162,ENTRY-UP,17:50:00
+7,TS16,junction_congestion,64697,110,ENTRY-UP,17:58:17
+7,TS03,junction_congestion,64805,170,ENTRY-UP,18:00:05
+7,TS10,junction_congestion,65033,60,ENTRY-DN,18:03:53
+7,TS25,junction_congestion,65201,60,ENTRY-DN,18:06:41
+7,TS21,junction_congestion,65545,60,ENTRY-UP,18:12:25
+7,TS07,junction_congestion,65713,60,ENTRY-UP,18:15:13
+7,TS11,junction_congestion,65881,60,ENTRY-UP,18:18:01
+7,TS12,junction_congestion,66085,24,ENTRY-UP,18:21:25
+7,TS02,junction_congestion,66253,24,ENTRY-UP,18:24:13
+7,TS05,junction_congestion,66421,24,ENTRY-UP,18:27:01
+7,TS16,junction_congestion,67507,60,ENTRY-DN,18:45:07
+7,TS03,junction_congestion,67675,60,ENTRY-DN,18:47:55
+7,TS21,in_service,71005,94,leg DN,19:43:25
+7,TS11,in_service,76741,76,leg DN,21:19:01
+8,TS23,induction_track_wait,16140,255,ENTRY-DN,04:29:00
+8,TS06,induction_track_wait,16620,60,ENTRY-UP,04:37:00
+8,TS16,induction_track_wait,16740,195,ENTRY-UP,04:39:00
+8,TS01,induction_track_wait,16800,420,ENTRY-UP,04:40:00
+8,TS22,induction_track_wait,16800,690,ENTRY-UP,04:40:00
+8,TS25,induction_track_wait,24600,130,ENTRY-UP,06:50:00
+8,TS04,induction_track_wait,24600,385,ENTRY-DN,06:50:00
+8,TS16,junction_congestion,25395,50,ENTRY-DN,07:03:15
+8,TS22,in_service,25935,10,leg UP,07:12:15
+8,TS11,induction_track_wait,27300,335,ENTRY-DN,07:35:00
+8,TS16,junction_congestion,28145,60,ENTRY-UP,07:49:05
+8,TS03,in_service,28545,12,leg UP,07:55:45
+8,TS14,junction_congestion,29445,100,ENTRY-UP,08:10:45
+8,TS14,junction_congestion,32245,60,ENTRY-DN,08:57:25
+8,TS20,junction_congestion,60945,100,ENTRY-DN,16:55:45
+8,TS17,induction_track_wait,60600,305,ENTRY-DN,16:50:00
+8,TS05,induction_track_wait,60600,540,ENTRY-DN,16:50:00
+8,TS15,induction_track_wait,60600,795,ENTRY-DN,16:50:00
+8,TS10,junction_congestion,61845,10,ENTRY-DN,17:10:45
+8,TS20,junction_congestion,63745,60,ENTRY-UP,17:42:25
+8,TS18,induction_track_wait,64200,130,ENTRY-UP,17:50:00
+8,TS10,junction_congestion,64555,220,ENTRY-UP,17:55:55
+8,TS19,induction_track_wait,64200,365,ENTRY-DN,17:50:00
+8,TS10,junction_congestion,67475,60,ENTRY-DN,18:44:35
+8,TS10,reception_wait,75635,50,RECEPTION,21:00:35
+9,TS01,preparation,15240,264,,04:14:00
+9,TS08,preparation,15480,1820,,04:18:00
+9,TS19,preparation,16200,5,,04:30:00
+9,TS11,induction_track_wait,16080,195,ENTRY-DN,04:28:00
+9,TS10,induction_track_wait,16440,120,ENTRY-DN,04:34:00
+9,TS15,induction_track_wait,16620,195,ENTRY-UP,04:37:00
+9,TS24,induction_track_wait,16680,420,ENTRY-UP,04:38:00
+9,TS13,induction_track_wait,16860,510,ENTRY-DN,04:41:00
+9,TS05,induction_track_wait,23700,255,ENTRY-DN,06:35:00
+9,TS10,in_service,25005,569,leg DN,06:56:45
+9,TS13,junction_congestion,25815,130,ENTRY-UP,07:10:15
+9,TS18,junction_congestion,26745,100,ENTRY-DN,07:25:45
+9,TS16,junction_congestion,27165,10,ENTRY-UP,07:32:45
+9,TS21,induction_track_wait,27300,10,ENTRY-DN,07:35:00
+9,TS12,induction_track_wait,27300,255,ENTRY-DN,07:35:00
+9,TS13,junction_congestion,28645,60,ENTRY-DN,07:57:25
+9,TS18,junction_congestion,29545,60,ENTRY-UP,08:12:25
+9,TS17,induction_track_wait,30000,10,ENTRY-UP,08:20:00
+9,TS21,junction_congestion,30355,100,ENTRY-UP,08:25:55
+9,TS02,junction_congestion,31245,100,ENTRY-DN,08:40:45
+9,TS21,junction_congestion,33155,60,ENTRY-DN,09:12:35
+9,TS12,junction_congestion,33315,60,ENTRY-DN,09:15:15
+9,TS02,junction_congestion,34045,60,ENTRY-UP,09:27:25
+9,TS20,in_service,50145,150,leg UP,13:55:45
+9,TS13,junction_congestion,50305,150,ENTRY-DN,13:58:25
+9,TS14,junction_congestion,59145,100,ENTRY-DN,16:25:45
+9,TS14,junction_congestion,61945,60,ENTRY-UP,17:12:25
+9,TS06,induction_track_wait,61500,365,ENTRY-UP,17:05:00
+9,TS04,in_service,62745,32,leg UP,17:25:45
+9,TS20,in_service,63795,1,leg DN,17:43:15
+9,TS22,induction_track_wait,63300,356,ENTRY-UP,17:35:00
+9,TS13,junction_congestion,63955,161,ENTRY-UP,17:45:55
+9,TS13,junction_congestion,66816,60,ENTRY-DN,18:33:36
+9,TS03,reception_wait,69945,210,RECEPTION,19:25:45
+9,TS15,in_service,81975,108,leg DN,22:46:15
+10,TS02,preparation,14880,1262,,04:08:00
+10,TS06,preparation,15600,357,,04:20:00
+10,TS15,preparation,14760,604,,04:06:00
+10,TS23,preparation,16440,40,,04:34:00
+10,TS12,induction_track_wait,16740,75,ENTRY-DN,04:39:00
+10,TS17,induction_track_wait,16800,300,ENTRY-UP,04:40:00
+10,TS15,induction_track_wait,16860,510,ENTRY-DN,04:41:00
+10,TS16,junction_congestion,25005,40,ENTRY-DN,06:56:45
+10,TS13,induction_track_wait,24600,255,ENTRY-UP,06:50:00
+10,TS12,junction_congestion,25275,40,ENTRY-UP,07:01:15
+10,TS24,induction_track_wait,26400,255,ENTRY-DN,07:20:00
+10,TS16,junction_congestion,27745,60,ENTRY-UP,07:42:25
+10,TS12,in_service,28015,227,leg UP,07:46:55
+10,TS25,junction_congestion,29445,100,ENTRY-UP,08:10:45
+10,TS20,junction_congestion,31245,100,ENTRY-DN,08:40:45
+10,TS03,junction_congestion,32145,100,ENTRY-UP,08:55:45
+10,TS25,junction_congestion,32245,60,ENTRY-DN,08:57:25
+10,TS24,junction_congestion,32415,50,ENTRY-DN,09:00:15
+10,TS20,junction_congestion,34045,60,ENTRY-UP,09:27:25
+10,TS05,reception_wait,35145,10,RECEPTION,09:45:45
+10,TS16,in_service,35905,40,leg UP,09:58:25
+10,TS15,in_service,42015,17,leg DN,11:40:15
+10,TS20,in_service,50305,16,leg DN,13:58:25
+10,TS19,in_service,57045,173,leg DN,15:50:45
+10,TS06,junction_congestion,59145,100,ENTRY-DN,16:25:45
+10,TS25,in_service,59305,158,leg UP,16:28:25
+10,TS18,junction_congestion,61845,100,ENTRY-DN,17:10:45
+10,TS06,junction_congestion,61945,60,ENTRY-UP,17:12:25
+10,TS25,in_service,62163,234,leg DN,17:16:03
+10,TS07,induction_track_wait,62400,93,ENTRY-UP,17:20:00
+10,TS14,junction_congestion,63645,100,ENTRY-DN,17:40:45
+10,TS20,junction_congestion,63821,84,ENTRY-DN,17:43:41
+10,TS10,junction_congestion,64545,100,ENTRY-UP,17:55:45
+10,TS18,junction_congestion,64645,160,ENTRY-UP,17:57:25
+10,TS08,induction_track_wait,64200,365,ENTRY-DN,17:50:00
+10,TS14,junction_congestion,66445,60,ENTRY-UP,18:27:25
+10,TS20,junction_congestion,66605,60,ENTRY-UP,18:30:05
+10,TS10,junction_congestion,67345,60,ENTRY-DN,18:42:25
+10,TS18,junction_congestion,67505,60,ENTRY-DN,18:45:05
+10,TS10,reception_wait,70105,50,RECEPTION,19:28:25
+11,TS23,preparation,14640,540,,04:04:00
+11,TS25,preparation,16560,98,,04:36:00
+11,TS05,induction_track_wait,16260,75,ENTRY-DN,04:31:00
+11,TS16,induction_track_wait,16500,120,ENTRY-DN,04:35:00
+11,TS10,induction_track_wait,16740,135,ENTRY-UP,04:39:00
+11,TS19,induction_track_wait,16800,360,ENTRY-DN,04:40:00
+11,TS12,induction_track_wait,16920,510,ENTRY-UP,04:42:00
+11,TS17,induction_track_wait,24600,70,ENTRY-UP,06:50:00
+11,TS16,junction_congestion,25065,50,ENTRY-UP,06:57:45
+11,TS12,junction_congestion,25875,70,ENTRY-DN,07:11:15
+11,TS08,induction_track_wait,25500,255,ENTRY-UP,07:05:00
+11,TS02,induction_track_wait,27300,70,ENTRY-DN,07:35:00
+11,TS17,junction_congestion,27715,100,ENTRY-DN,07:41:55
+11,TS16,junction_congestion,27815,160,ENTRY-DN,07:43:35
+11,TS14,induction_track_wait,27300,535,ENTRY-DN,07:35:00
+11,TS12,junction_congestion,28645,60,ENTRY-UP,07:57:25
+11,TS17,junction_congestion,30515,60,ENTRY-UP,08:28:35
+11,TS16,junction_congestion,30675,60,ENTRY-UP,08:31:15
+11,TS19,junction_congestion,31005,50,ENTRY-UP,08:36:45
+11,TS24,induction_track_wait,30900,30,ENTRY-UP,08:35:00
+11,TS04,junction_congestion,31245,130,ENTRY-UP,08:40:45
+11,TS08,junction_congestion,31515,20,ENTRY-UP,08:45:15
+11,TS03,induction_track_wait,30900,365,ENTRY-DN,08:35:00
+11,TS01,induction_track_wait,30900,540,ENTRY-UP,08:35:00
+11,TS05,in_service,32895,15,leg UP,09:08:15
+11,TS04,junction_congestion,34075,60,ENTRY-DN,09:27:55
+11,TS08,junction_congestion,34235,60,ENTRY-DN,09:30:35
+11,TS16,in_service,38835,187,leg UP,10:47:15
+11,TS16,junction_congestion,39022,133,ENTRY-DN,10:50:22
+11,TS23,in_service,39345,140,leg DN,10:55:45
+11,TS12,junction_congestion,39505,140,ENTRY-UP,10:58:25
+11,TS03,reception_wait,39725,20,RECEPTION,11:02:05
+11,TS23,in_service,42185,241,leg UP,11:43:05
+11,TS23,junction_congestion,42426,79,ENTRY-DN,11:47:06
+11,TS15,junction_congestion,48345,100,ENTRY-UP,13:25:45
+11,TS23,in_service,50605,267,leg DN,14:03:25
+11,TS15,in_service,51145,41,leg UP,14:12:25
+11,TS15,junction_congestion,51186,19,ENTRY-DN,14:13:06
+11,TS11,induction_track_wait,58800,47,ENTRY-DN,16:20:00
+11,TS20,induction_track_wait,58800,255,ENTRY-UP,16:20:00
+11,TS07,induction_track_wait,60600,30,ENTRY-DN,16:50:00
+11,TS02,junction_congestion,62815,30,ENTRY-UP,17:26:55
+11,TS21,induction_track_wait,62400,255,ENTRY-DN,17:20:00
+11,TS18,induction_track_wait,62400,540,ENTRY-UP,17:20:00
+11,TS14,junction_congestion,63295,90,ENTRY-UP,17:34:55
+11,TS16,junction_congestion,63455,90,ENTRY-UP,17:37:35
+11,TS06,induction_track_wait,62400,795,ENTRY-DN,17:20:00
+11,TS07,junction_congestion,63675,30,ENTRY-UP,17:41:15
+11,TS02,junction_congestion,65545,60,ENTRY-DN,18:12:25
+11,TS10,junction_congestion,65835,40,ENTRY-UP,18:17:15
+11,TS14,junction_congestion,66085,60,ENTRY-DN,18:21:25
+11,TS16,junction_congestion,66245,60,ENTRY-DN,18:24:05
+11,TS07,junction_congestion,66405,60,ENTRY-DN,18:26:45
+11,TS01,in_service,72285,157,leg UP,20:04:45
+11,TS16,in_service,79805,454,leg DN,22:10:05
+12,TS01,preparation,16320,257,,04:32:00
+12,TS25,induction_track_wait,16140,195,ENTRY-DN,04:29:00
+12,TS04,induction_track_wait,16260,360,ENTRY-UP,04:31:00
+12,TS18,induction_track_wait,16560,315,ENTRY-DN,04:36:00
+12,TS19,induction_track_wait,16740,420,ENTRY-UP,04:39:00
+12,TS11,induction_track_wait,16860,570,ENTRY-DN,04:41:00
+12,TS06,induction_track_wait,27300,70,ENTRY-DN,07:35:00
+12,TS21,junction_congestion,28545,100,ENTRY-UP,07:55:45
+12,TS07,junction_congestion,29445,100,ENTRY-DN,08:10:45
+12,TS21,junction_congestion,31345,60,ENTRY-DN,08:42:25
+12,TS07,junction_congestion,32245,60,ENTRY-UP,08:57:25
+12,TS11,junction_congestion,58275,70,ENTRY-UP,16:11:15
+12,TS08,induction_track_wait,59700,70,ENTRY-DN,16:35:00
+12,TS11,junction_congestion,61045,60,ENTRY-DN,16:57:25
+12,TS09,junction_congestion,63645,100,ENTRY-DN,17:40:45
+12,TS23,induction_track_wait,65100,70,ENTRY-DN,18:05:00
+12,TS08,junction_congestion,65515,100,ENTRY-DN,18:11:55
+12,TS09,junction_congestion,66445,60,ENTRY-UP,18:27:25
+12,TS11,reception_wait,74605,50,RECEPTION,20:43:25
+13,TS02,preparation,16320,1390,,04:32:00
+13,TS04,preparation,17280,325,,04:48:00
+13,TS10,preparation,15360,44,,04:16:00
+13,TS13,preparation,15240,589,,04:14:00
+13,TS15,preparation,16440,31,,04:34:00
+13,TS16,preparation,16200,684,,04:30:00
+13,TS22,preparation,16560,68,,04:36:00
+13,TS07,induction_track_wait,16020,225,ENTRY-DN,04:27:00
+13,TS25,induction_track_wait,16080,480,ENTRY-UP,04:28:00
+13,TS12,induction_track_wait,16260,600,ENTRY-DN,04:31:00
+13,TS10,induction_track_wait,16860,285,ENTRY-UP,04:41:00
+13,TS23,induction_track_wait,17040,420,ENTRY-DN,04:44:00
+13,TS23,in_service,20485,175,leg DN,05:41:25
+13,TS10,in_service,22885,282,leg DN,06:21:25
+13,TS23,in_service,23360,477,leg UP,06:29:20
+13,TS25,junction_congestion,27685,90,ENTRY-UP,07:41:25
+13,TS06,induction_track_wait,27300,285,ENTRY-DN,07:35:00
+13,TS12,junction_congestion,27985,90,ENTRY-DN,07:46:25
+13,TS10,in_service,28567,4,leg DN,07:56:07
+13,TS25,junction_congestion,30475,60,ENTRY-DN,08:27:55
+13,TS12,junction_congestion,30775,60,ENTRY-UP,08:32:55
+13,TS10,junction_congestion,31271,104,ENTRY-DN,08:41:11
+13,TS10,junction_congestion,34075,60,ENTRY-UP,09:27:55
+13,TS08,in_service,35725,126,leg UP,09:55:25
+13,TS25,junction_congestion,35935,126,ENTRY-DN,09:58:55
+13,TS14,in_service,36625,172,leg UP,10:10:25
+13,TS10,junction_congestion,36835,172,ENTRY-DN,10:13:55
+13,TS06,in_service,57625,22,leg DN,16:00:25
+13,TS25,in_service,63061,67,leg UP,17:31:01
+13,TS14,junction_congestion,63797,53,ENTRY-DN,17:43:17
+13,TS10,junction_congestion,64007,53,ENTRY-DN,17:46:47
+13,TS20,in_service,66340,185,leg DN,18:25:40
+13,TS14,junction_congestion,66550,185,ENTRY-UP,18:29:10
+13,TS10,junction_congestion,66760,185,ENTRY-UP,18:32:40
+13,TS07,in_service,73285,104,leg DN,20:21:25
+13,TS06,in_service,79247,1,leg DN,22:00:47
+14,TS25,induction_track_wait,16260,195,ENTRY-UP,04:31:00
+14,TS16,induction_track_wait,16260,480,ENTRY-DN,04:31:00
+14,TS01,induction_track_wait,16920,75,ENTRY-DN,04:42:00
+14,TS03,induction_track_wait,16380,900,ENTRY-UP,04:33:00
+14,TS18,in_service,24225,138,leg UP,06:43:45
+14,TS19,induction_track_wait,23700,255,ENTRY-DN,06:35:00
+14,TS18,junction_congestion,24363,52,ENTRY-DN,06:46:03
+14,TS14,induction_track_wait,24660,195,ENTRY-DN,06:51:00
+14,TS11,induction_track_wait,25500,100,ENTRY-DN,07:05:00
+14,TS18,junction_congestion,27115,60,ENTRY-UP,07:31:55
+14,TS10,junction_congestion,27645,100,ENTRY-DN,07:40:45
+14,TS16,junction_congestion,27885,20,ENTRY-DN,07:44:45
+14,TS06,junction_congestion,29445,100,ENTRY-UP,08:10:45
+14,TS09,induction_track_wait,29100,255,ENTRY-DN,08:05:00
+14,TS19,junction_congestion,29715,100,ENTRY-DN,08:15:15
+14,TS18,junction_congestion,29875,100,ENTRY-DN,08:17:55
+14,TS10,junction_congestion,30445,60,ENTRY-UP,08:27:25
+14,TS16,junction_congestion,30605,60,ENTRY-UP,08:30:05
+14,TS06,junction_congestion,32245,60,ENTRY-DN,08:57:25
+14,TS19,junction_congestion,32515,60,ENTRY-UP,09:01:55
+14,TS18,junction_congestion,32675,60,ENTRY-UP,09:04:35
+14,TS16,reception_wait,38765,160,RECEPTION,10:46:05
+14,TS17,junction_congestion,46545,100,ENTRY-UP,12:55:45
+14,TS17,junction_congestion,49345,60,ENTRY-DN,13:42:25
+14,TS11,in_service,52945,13,leg UP,14:42:25
+14,TS08,junction_congestion,57345,100,ENTRY-UP,15:55:45
+14,TS17,junction_congestion,57505,100,ENTRY-UP,15:58:25
+14,TS22,induction_track_wait,58800,255,ENTRY-UP,16:20:00
+14,TS08,junction_congestion,60145,60,ENTRY-DN,16:42:25
+14,TS17,junction_congestion,60305,60,ENTRY-DN,16:45:05
+14,TS02,induction_track_wait,61500,365,ENTRY-UP,17:05:00
+14,TS21,induction_track_wait,61500,650,ENTRY-DN,17:05:00
+14,TS04,induction_track_wait,63300,100,ENTRY-DN,17:35:00
+14,TS02,in_service,67625,79,leg DN,18:47:05
+14,TS08,in_service,68305,49,leg DN,18:58:25
+14,TS17,junction_congestion,68465,49,ENTRY-UP,19:01:05
+14,TS01,junction_congestion,68655,19,ENTRY-UP,19:04:15
+14,TS15,reception_wait,69945,210,RECEPTION,19:25:45
+14,TS01,in_service,82174,154,leg UP,22:49:34
+15,TS08,preparation,15000,1193,,04:10:00
+15,TS22,induction_track_wait,16320,75,ENTRY-DN,04:32:00
+15,TS24,induction_track_wait,16440,240,ENTRY-UP,04:34:00
+15,TS14,induction_track_wait,16740,195,ENTRY-UP,04:39:00
+15,TS23,induction_track_wait,16800,420,ENTRY-UP,04:40:00
+15,TS03,induction_track_wait,16920,570,ENTRY-DN,04:42:00
+15,TS12,induction_track_wait,24600,255,ENTRY-UP,06:50:00
+15,TS25,junction_congestion,26745,100,ENTRY-DN,07:25:45
+15,TS05,junction_congestion,27645,100,ENTRY-UP,07:40:45
+15,TS24,junction_congestion,27825,80,ENTRY-UP,07:43:45
+15,TS03,junction_congestion,28635,10,ENTRY-DN,07:57:15
+15,TS17,induction_track_wait,28200,305,ENTRY-DN,07:50:00
+15,TS04,induction_track_wait,28200,540,ENTRY-DN,07:50:00
+15,TS21,junction_congestion,29445,100,ENTRY-UP,08:10:45
+15,TS25,junction_congestion,29545,160,ENTRY-UP,08:12:25
+15,TS05,junction_congestion,30445,60,ENTRY-DN,08:27:25
+15,TS24,junction_congestion,30605,60,ENTRY-DN,08:30:05
+15,TS14,junction_congestion,30795,30,ENTRY-DN,08:33:15
+15,TS15,junction_congestion,31245,100,ENTRY-UP,08:40:45
+15,TS03,junction_congestion,31345,160,ENTRY-UP,08:42:25
+15,TS17,junction_congestion,31565,100,ENTRY-UP,08:46:05
+15,TS04,junction_congestion,31785,40,ENTRY-UP,08:49:45
+15,TS21,junction_congestion,32245,60,ENTRY-DN,08:57:25
+15,TS25,junction_congestion,32405,60,ENTRY-DN,09:00:05
+15,TS23,in_service,33765,55,leg DN,09:22:45
+15,TS15,junction_congestion,34045,60,ENTRY-DN,09:27:25
+15,TS03,junction_congestion,34205,60,ENTRY-DN,09:30:05
+15,TS17,junction_congestion,34365,60,ENTRY-DN,09:32:45
+15,TS04,junction_congestion,34525,60,ENTRY-DN,09:35:25
+15,TS21,reception_wait,35005,50,RECEPTION,09:43:25
+15,TS08,induction_track_wait,57000,130,ENTRY-UP,15:50:00
+15,TS20,induction_track_wait,59700,130,ENTRY-DN,16:35:00
+15,TS08,junction_congestion,60175,100,ENTRY-DN,16:42:55
+15,TS12,junction_congestion,60315,120,ENTRY-DN,16:45:15
+15,TS06,induction_track_wait,60600,255,ENTRY-DN,16:50:00
+15,TS03,junction_congestion,61265,50,ENTRY-DN,17:01:05
+15,TS08,junction_congestion,62975,60,ENTRY-UP,17:29:35
+15,TS12,junction_congestion,63135,60,ENTRY-UP,17:32:15
+15,TS03,junction_congestion,64015,60,ENTRY-UP,17:46:55
+15,TS11,junction_congestion,65445,100,ENTRY-UP,18:10:45
+15,TS05,junction_congestion,65605,100,ENTRY-UP,18:13:25
+15,TS24,junction_congestion,65765,100,ENTRY-UP,18:16:05
+15,TS11,junction_congestion,68245,60,ENTRY-DN,18:57:25
+15,TS05,junction_congestion,68405,60,ENTRY-DN,19:00:05
+15,TS24,junction_congestion,68565,60,ENTRY-DN,19:02:45
+15,TS20,reception_wait,70975,80,RECEPTION,19:42:55
+15,TS08,in_service,73835,224,leg DN,20:30:35
+16,TS03,preparation,15600,2089,,04:20:00
+16,TS07,preparation,15720,451,,04:22:00
+16,TS11,preparation,17040,154,,04:44:00
+16,TS14,preparation,15840,746,,04:24:00
+16,TS24,preparation,14880,38,,04:08:00
+16,TS08,induction_track_wait,16800,165,ENTRY-UP,04:40:00
+16,TS24,induction_track_wait,16980,300,ENTRY-DN,04:43:00
+16,TS10,induction_track_wait,17220,345,ENTRY-UP,04:47:00
+16,TS15,induction_track_wait,17220,660,ENTRY-DN,04:47:00
+16,TS16,induction_track_wait,23700,285,ENTRY-UP,06:35:00
+16,TS13,induction_track_wait,24600,10,ENTRY-DN,06:50:00
+16,TS12,junction_congestion,26725,150,ENTRY-DN,07:25:25
+16,TS16,junction_congestion,27025,60,ENTRY-DN,07:30:25
+16,TS09,induction_track_wait,27300,10,ENTRY-UP,07:35:00
+16,TS13,junction_congestion,27635,150,ENTRY-UP,07:40:35
+16,TS21,induction_track_wait,28200,130,ENTRY-DN,07:50:00
+16,TS15,in_service,29005,286,leg UP,08:03:25
+16,TS12,junction_congestion,29575,60,ENTRY-UP,08:12:55
+16,TS16,junction_congestion,29785,60,ENTRY-UP,08:16:25
+16,TS22,induction_track_wait,30000,10,ENTRY-DN,08:20:00
+16,TS09,junction_congestion,30335,150,ENTRY-DN,08:25:35
+16,TS13,junction_congestion,30485,210,ENTRY-DN,08:28:05
+16,TS18,induction_track_wait,30000,605,ENTRY-DN,08:20:00
+16,TS08,junction_congestion,30805,290,ENTRY-DN,08:33:25
+16,TS09,junction_congestion,33185,60,ENTRY-UP,09:13:05
+16,TS13,junction_congestion,33395,60,ENTRY-UP,09:16:35
+16,TS18,junction_congestion,33645,20,ENTRY-UP,09:20:45
+16,TS08,junction_congestion,33795,80,ENTRY-UP,09:23:15
+16,TS10,in_service,34105,35,leg DN,09:28:25
+16,TS09,in_service,41345,11,leg UP,11:29:05
+16,TS15,in_service,45491,258,leg UP,12:38:11
+16,TS21,junction_congestion,47555,35,ENTRY-UP,13:12:35
+16,TS21,junction_congestion,50290,60,ENTRY-DN,13:58:10
+16,TS21,in_service,53050,417,leg DN,14:44:10
+16,TS07,in_service,55540,269,leg UP,15:25:40
+16,TS17,induction_track_wait,57000,481,ENTRY-DN,15:50:00
+16,TS15,junction_congestion,59249,26,ENTRY-UP,16:27:29
+16,TS18,junction_congestion,60665,51,ENTRY-UP,16:51:05
+16,TS14,induction_track_wait,59700,1434,ENTRY-DN,16:35:00
+16,TS21,junction_congestion,61567,42,ENTRY-DN,17:06:07
+16,TS01,induction_track_wait,59700,1657,ENTRY-UP,16:35:00
+16,TS05,in_service,61825,321,leg UP,17:10:25
+16,TS05,junction_congestion,62146,39,ENTRY-DN,17:15:46
+16,TS11,induction_track_wait,62400,10,ENTRY-DN,17:20:00
+16,TS03,induction_track_wait,62400,415,ENTRY-UP,17:20:00
+16,TS21,junction_congestion,64309,60,ENTRY-UP,17:51:49
+16,TS03,in_service,71255,171,leg UP,19:47:35
+17,TS24,preparation,16200,283,,04:30:00
+17,TS01,induction_track_wait,16200,30,ENTRY-DN,04:30:00
+17,TS13,induction_track_wait,16740,75,ENTRY-DN,04:39:00
+17,TS04,induction_track_wait,16800,300,ENTRY-UP,04:40:00
+17,TS20,induction_track_wait,16980,375,ENTRY-DN,04:43:00
+17,TS08,junction_congestion,25005,40,ENTRY-DN,06:56:45
+17,TS20,junction_congestion,25815,130,ENTRY-UP,07:10:15
+17,TS05,induction_track_wait,25500,255,ENTRY-DN,07:05:00
+17,TS06,induction_track_wait,25500,540,ENTRY-UP,07:05:00
+17,TS08,junction_congestion,27745,60,ENTRY-UP,07:42:25
+17,TS20,junction_congestion,28645,60,ENTRY-DN,07:57:25
+17,TS12,junction_congestion,29445,100,ENTRY-UP,08:10:45
+17,TS07,induction_track_wait,29100,255,ENTRY-DN,08:05:00
+17,TS19,junction_congestion,29805,10,ENTRY-DN,08:16:45
+17,TS12,junction_congestion,32245,60,ENTRY-DN,08:57:25
+17,TS17,induction_track_wait,31800,365,ENTRY-DN,08:50:00
+17,TS19,junction_congestion,32515,60,ENTRY-UP,09:01:55
+17,TS01,reception_wait,35475,10,RECEPTION,09:51:15
+17,TS22,junction_congestion,57345,100,ENTRY-DN,15:55:45
+17,TS08,junction_congestion,57505,100,ENTRY-DN,15:58:25
+17,TS22,junction_congestion,60145,60,ENTRY-UP,16:42:25
+17,TS08,junction_congestion,60305,60,ENTRY-UP,16:45:05
+17,TS23,junction_congestion,60945,100,ENTRY-UP,16:55:45
+17,TS05,in_service,61215,433,leg DN,17:00:15
+17,TS18,junction_congestion,62745,100,ENTRY-DN,17:25:45
+17,TS22,junction_congestion,62905,100,ENTRY-DN,17:28:25
+17,TS16,induction_track_wait,62400,255,ENTRY-UP,17:20:00
+17,TS13,junction_congestion,63075,40,ENTRY-UP,17:31:15
+17,TS08,junction_congestion,63065,100,ENTRY-DN,17:31:05
+17,TS21,induction_track_wait,62400,640,ENTRY-DN,17:20:00
+17,TS23,junction_congestion,63745,60,ENTRY-DN,17:42:25
+17,TS18,junction_congestion,65545,60,ENTRY-UP,18:12:25
+17,TS22,junction_congestion,65705,60,ENTRY-UP,18:15:05
+17,TS13,junction_congestion,65815,60,ENTRY-DN,18:16:55
+17,TS08,junction_congestion,65865,60,ENTRY-UP,18:17:45
+17,TS15,in_service,67245,284,leg DN,18:40:45
+17,TS17,junction_congestion,67625,64,ENTRY-UP,18:47:05
+17,TS03,in_service,68145,305,leg UP,18:55:45
+17,TS18,in_service,68305,141,leg UP,18:58:25
+17,TS03,junction_congestion,68450,156,ENTRY-DN,19:00:50
+17,TS22,junction_congestion,68465,301,ENTRY-DN,19:01:05
+17,TS08,junction_congestion,68625,301,ENTRY-DN,19:03:45
+17,TS09,junction_congestion,69045,41,ENTRY-DN,19:10:45
+17,TS23,junction_congestion,69205,41,ENTRY-DN,19:13:25
+17,TS07,in_service,72915,115,leg UP,20:15:15
+18,TS06,preparation,16560,12,,04:36:00
+18,TS13,preparation,15000,429,,04:10:00
+18,TS18,preparation,15960,809,,04:26:00
+18,TS24,preparation,17160,437,,04:46:00
+18,TS25,preparation,16440,413,,04:34:00
+18,TS16,induction_track_wait,16140,195,ENTRY-DN,04:29:00
+18,TS22,induction_track_wait,16140,480,ENTRY-UP,04:29:00
+18,TS01,induction_track_wait,16620,255,ENTRY-UP,04:37:00
+18,TS05,induction_track_wait,16260,900,ENTRY-DN,04:31:00
+18,TS13,induction_track_wait,16920,510,ENTRY-DN,04:42:00
+18,TS14,induction_track_wait,21900,70,ENTRY-DN,06:05:00
+18,TS11,induction_track_wait,21900,255,ENTRY-DN,06:05:00
+18,TS10,induction_track_wait,23700,255,ENTRY-DN,06:35:00
+18,TS04,induction_track_wait,24600,70,ENTRY-UP,06:50:00
+18,TS14,junction_congestion,25007,108,ENTRY-UP,06:56:47
+18,TS11,junction_congestion,25207,76,ENTRY-UP,07:00:07
+18,TS18,induction_track_wait,27300,70,ENTRY-DN,07:35:00
+18,TS04,junction_congestion,27707,108,ENTRY-DN,07:41:47
+18,TS14,junction_congestion,27815,168,ENTRY-DN,07:43:35
+18,TS12,induction_track_wait,27300,551,ENTRY-DN,07:35:00
+18,TS11,junction_congestion,27983,328,ENTRY-DN,07:46:23
+18,TS05,junction_congestion,28297,182,ENTRY-DN,07:51:37
+18,TS21,junction_congestion,28537,108,ENTRY-UP,07:55:37
+18,TS13,junction_congestion,28567,80,ENTRY-DN,07:56:07
+18,TS06,induction_track_wait,28200,313,ENTRY-UP,07:50:00
+18,TS09,junction_congestion,29437,108,ENTRY-DN,08:10:37
+18,TS10,junction_congestion,29707,6,ENTRY-DN,08:15:07
+18,TS04,junction_congestion,30515,60,ENTRY-UP,08:28:35
+18,TS14,junction_congestion,30683,60,ENTRY-UP,08:31:23
+18,TS12,junction_congestion,30903,8,ENTRY-UP,08:35:03
+18,TS11,junction_congestion,31011,68,ENTRY-UP,08:36:51
+18,TS05,junction_congestion,31179,68,ENTRY-UP,08:39:39
+18,TS21,junction_congestion,31345,60,ENTRY-DN,08:42:25
+18,TS13,junction_congestion,31347,68,ENTRY-UP,08:42:27
+18,TS06,junction_congestion,31565,8,ENTRY-DN,08:46:05
+18,TS09,junction_congestion,32245,60,ENTRY-UP,08:57:25
+18,TS10,junction_congestion,32413,60,ENTRY-UP,09:00:13
+18,TS19,junction_congestion,32617,24,ENTRY-UP,09:03:37
+18,TS04,reception_wait,35975,42,RECEPTION,09:59:35
+18,TS01,reception_wait,36127,100,RECEPTION,10:02:07
+18,TS05,reception_wait,39347,200,RECEPTION,10:55:47
+18,TS09,reception_wait,40405,42,RECEPTION,11:13:25
+18,TS11,in_service,41879,99,leg DN,11:37:59
+18,TS23,junction_congestion,42937,108,ENTRY-UP,11:55:37
+18,TS03,induction_track_wait,44400,161,ENTRY-DN,12:20:00
+18,TS13,junction_congestion,44915,91,ENTRY-DN,12:28:35
+18,TS23,junction_congestion,45745,60,ENTRY-DN,12:42:25
+18,TS25,induction_track_wait,46200,255,ENTRY-UP,12:50:00
+18,TS13,junction_congestion,47706,60,ENTRY-UP,13:15:06
+18,TS17,junction_congestion,56437,108,ENTRY-DN,15:40:37
+18,TS23,junction_congestion,56605,108,ENTRY-DN,15:43:25
+18,TS10,junction_congestion,56773,108,ENTRY-DN,15:46:13
+18,TS19,junction_congestion,56941,108,ENTRY-DN,15:49:01
+18,TS07,induction_track_wait,57900,161,ENTRY-UP,16:05:00
+18,TS08,induction_track_wait,57900,281,ENTRY-DN,16:05:00
+18,TS06,junction_congestion,58573,68,ENTRY-DN,16:16:13
+18,TS24,junction_congestion,59137,108,ENTRY-UP,16:25:37
+18,TS17,junction_congestion,59245,168,ENTRY-UP,16:27:25
+18,TS23,junction_congestion,59413,168,ENTRY-UP,16:30:13
+18,TS10,junction_congestion,59581,168,ENTRY-UP,16:33:01
+18,TS19,junction_congestion,59749,168,ENTRY-UP,16:35:49
+18,TS04,induction_track_wait,60600,161,ENTRY-DN,16:50:00
+18,TS07,junction_congestion,61098,108,ENTRY-DN,16:58:18
+18,TS13,junction_congestion,61266,108,ENTRY-DN,17:01:06
+18,TS06,junction_congestion,61341,60,ENTRY-UP,17:02:21
+18,TS18,junction_congestion,61837,108,ENTRY-DN,17:10:37
+18,TS24,junction_congestion,61945,168,ENTRY-DN,17:12:25
+18,TS20,induction_track_wait,61500,481,ENTRY-DN,17:05:00
+18,TS17,junction_congestion,62113,328,ENTRY-DN,17:15:13
+18,TS23,junction_congestion,62281,328,ENTRY-DN,17:18:01
+18,TS05,induction_track_wait,61500,992,ENTRY-DN,17:05:00
+18,TS10,junction_congestion,62449,488,ENTRY-DN,17:20:49
+18,TS19,junction_congestion,62617,488,ENTRY-DN,17:23:37
+18,TS02,induction_track_wait,63300,161,ENTRY-UP,17:35:00
+18,TS04,junction_congestion,63798,108,ENTRY-UP,17:43:18
+18,TS07,junction_congestion,63906,168,ENTRY-UP,17:45:06
+18,TS13,junction_congestion,64074,168,ENTRY-UP,17:47:54
+18,TS18,junction_congestion,64645,60,ENTRY-UP,17:57:25
+18,TS24,junction_congestion,64813,60,ENTRY-UP,18:00:13
+18,TS20,junction_congestion,65033,8,ENTRY-UP,18:03:53
+18,TS17,junction_congestion,65141,68,ENTRY-UP,18:05:41
+18,TS23,junction_congestion,65309,68,ENTRY-UP,18:08:29
+18,TS05,junction_congestion,65529,16,ENTRY-UP,18:12:09
+18,TS10,junction_congestion,65637,76,ENTRY-UP,18:13:57
+18,TS19,junction_congestion,65805,76,ENTRY-UP,18:16:45
+18,TS04,junction_congestion,66606,60,ENTRY-DN,18:30:06
+18,TS07,junction_congestion,66774,60,ENTRY-DN,18:32:54
+18,TS13,junction_congestion,66942,60,ENTRY-DN,18:35:42
+18,TS09,induction_track_wait,67620,4,ENTRY-DN,18:47:00
+18,TS17,junction_congestion,67909,160,ENTRY-DN,18:51:49
+18,TS23,junction_congestion,68077,160,ENTRY-DN,18:54:37
+18,TS05,junction_congestion,68245,160,ENTRY-DN,18:57:25
+18,TS10,junction_congestion,68413,160,ENTRY-DN,19:00:13
+18,TS19,junction_congestion,68581,160,ENTRY-DN,19:03:01
+18,TS17,junction_congestion,70769,60,ENTRY-UP,19:39:29
+18,TS23,junction_congestion,70937,60,ENTRY-UP,19:42:17
+18,TS05,junction_congestion,71105,60,ENTRY-UP,19:45:05
+18,TS10,junction_congestion,71273,60,ENTRY-UP,19:47:53
+18,TS19,junction_congestion,71441,60,ENTRY-UP,19:50:41
+18,TS04,reception_wait,72066,177,RECEPTION,20:01:06
+18,TS18,reception_wait,72805,42,RECEPTION,20:13:25
+18,TS02,in_service,77298,39,leg UP,21:28:18
+18,TS11,in_service,82478,64,leg UP,22:54:38
+19,TS16,induction_track_wait,16200,75,ENTRY-DN,04:30:00
+19,TS14,induction_track_wait,16860,195,ENTRY-DN,04:41:00
+19,TS07,induction_track_wait,16920,420,ENTRY-UP,04:42:00
+19,TS23,induction_track_wait,16980,630,ENTRY-DN,04:43:00
+19,TS06,induction_track_wait,24600,10,ENTRY-UP,06:50:00
+19,TS15,junction_congestion,26745,100,ENTRY-DN,07:25:45
+19,TS02,induction_track_wait,27300,10,ENTRY-DN,07:35:00
+19,TS06,junction_congestion,27655,100,ENTRY-DN,07:40:55
+19,TS05,induction_track_wait,27300,315,ENTRY-DN,07:35:00
+19,TS08,induction_track_wait,28200,160,ENTRY-UP,07:50:00
+19,TS15,junction_congestion,29545,60,ENTRY-UP,08:12:25
+19,TS21,induction_track_wait,30000,10,ENTRY-UP,08:20:00
+19,TS02,junction_congestion,30355,100,ENTRY-UP,08:25:55
+19,TS06,junction_congestion,30455,160,ENTRY-UP,08:27:35
+19,TS05,junction_congestion,30675,100,ENTRY-UP,08:31:15
+19,TS14,junction_congestion,30915,20,ENTRY-UP,08:35:15
+19,TS02,junction_congestion,33155,60,ENTRY-DN,09:12:35
+19,TS06,junction_congestion,33315,60,ENTRY-DN,09:15:15
+19,TS05,junction_congestion,33475,60,ENTRY-DN,09:17:55
+19,TS14,junction_congestion,33635,60,ENTRY-DN,09:20:35
+19,TS10,junction_congestion,59145,100,ENTRY-DN,16:25:45
+19,TS21,junction_congestion,60055,90,ENTRY-DN,16:40:55
+19,TS19,induction_track_wait,60600,160,ENTRY-UP,16:50:00
+19,TS08,junction_congestion,61105,100,ENTRY-UP,16:58:25
+19,TS10,junction_congestion,61945,60,ENTRY-UP,17:12:25
+19,TS21,junction_congestion,62845,60,ENTRY-UP,17:27:25
+19,TS13,induction_track_wait,63300,160,ENTRY-DN,17:35:00
+19,TS19,junction_congestion,63805,100,ENTRY-DN,17:43:25
+19,TS08,junction_congestion,63905,160,ENTRY-DN,17:45:05
+19,TS09,induction_track_wait,63300,415,ENTRY-UP,17:35:00
+19,TS10,in_service,64705,127,leg UP,17:58:25
+19,TS19,junction_congestion,66605,60,ENTRY-UP,18:30:05
+19,TS08,junction_congestion,66765,60,ENTRY-UP,18:32:45
+20,TS11,preparation,16680,202,,04:38:00
+20,TS15,induction_track_wait,15960,135,ENTRY-DN,04:26:00
+20,TS10,induction_track_wait,16200,180,ENTRY-DN,04:30:00
+20,TS14,induction_track_wait,16440,195,ENTRY-UP,04:34:00
+20,TS17,induction_track_wait,16440,480,ENTRY-UP,04:34:00
+20,TS16,induction_track_wait,16440,735,ENTRY-UP,04:34:00
+20,TS06,induction_track_wait,27300,355,ENTRY-UP,07:35:00
+20,TS17,junction_congestion,28065,50,ENTRY-UP,07:47:45
+20,TS14,junction_congestion,30495,10,ENTRY-DN,08:28:15
+20,TS17,junction_congestion,30815,60,ENTRY-DN,08:33:35
+20,TS10,in_service,41025,68,leg DN,11:23:45
+20,TS05,in_service,45645,71,leg DN,12:40:45
+20,TS16,in_service,63435,129,leg UP,17:37:15
+20,TS22,junction_congestion,65445,100,ENTRY-UP,18:10:45
+20,TS14,junction_congestion,65605,100,ENTRY-UP,18:13:25
+20,TS06,junction_congestion,65815,50,ENTRY-UP,18:16:55
+20,TS17,junction_congestion,65975,50,ENTRY-UP,18:19:35
+20,TS22,junction_congestion,68245,60,ENTRY-DN,18:57:25
+20,TS14,junction_congestion,68405,60,ENTRY-DN,19:00:05
+20,TS06,junction_congestion,68565,60,ENTRY-DN,19:02:45
+20,TS17,junction_congestion,68725,60,ENTRY-DN,19:05:25
+20,TS05,in_service,70016,567,leg UP,19:26:56
+21,TS08,preparation,14520,286,,04:02:00
+21,TS21,preparation,15720,117,,04:22:00
+21,TS08,induction_track_wait,16260,135,ENTRY-DN,04:31:00
+21,TS02,induction_track_wait,16440,240,ENTRY-UP,04:34:00
+21,TS15,induction_track_wait,17040,195,ENTRY-DN,04:44:00
+21,TS19,induction_track_wait,17040,480,ENTRY-DN,04:44:00
+21,TS23,induction_track_wait,24600,255,ENTRY-UP,06:50:00
+21,TS21,junction_congestion,26745,100,ENTRY-DN,07:25:45
+21,TS11,junction_congestion,27645,100,ENTRY-UP,07:40:45
+21,TS02,junction_congestion,27825,80,ENTRY-UP,07:43:45
+21,TS16,induction_track_wait,27300,255,ENTRY-DN,07:35:00
+21,TS23,junction_congestion,27915,100,ENTRY-DN,07:45:15
+21,TS25,junction_congestion,28125,50,ENTRY-DN,07:48:45
+21,TS13,induction_track_wait,27300,540,ENTRY-UP,07:35:00
+21,TS05,induction_track_wait,28200,70,ENTRY-DN,07:50:00
+21,TS19,junction_congestion,28665,50,ENTRY-DN,07:57:45
+21,TS01,junction_congestion,29445,100,ENTRY-UP,08:10:45
+21,TS21,junction_congestion,29545,160,ENTRY-UP,08:12:25
+21,TS11,junction_congestion,30445,60,ENTRY-DN,08:27:25
+21,TS02,junction_congestion,30605,60,ENTRY-DN,08:30:05
+21,TS23,junction_congestion,30715,60,ENTRY-UP,08:31:55
+21,TS25,in_service,30875,223,leg DN,08:34:35
+21,TS25,junction_congestion,31098,157,ENTRY-UP,08:38:18
+21,TS05,junction_congestion,31315,100,ENTRY-UP,08:41:55
+21,TS19,junction_congestion,31415,160,ENTRY-UP,08:43:35
+21,TS01,junction_congestion,32245,60,ENTRY-DN,08:57:25
+21,TS21,junction_congestion,32405,60,ENTRY-DN,09:00:05
+21,TS13,in_service,33585,130,leg DN,09:19:45
+21,TS25,reception_wait,36655,50,RECEPTION,10:10:55
+21,TS08,in_service,57255,46,leg DN,15:54:15
+21,TS08,junction_congestion,57301,144,ENTRY-UP,15:55:01
+21,TS12,junction_congestion,59145,100,ENTRY-DN,16:25:45
+21,TS04,junction_congestion,60045,100,ENTRY-UP,16:40:45
+21,TS08,junction_congestion,60145,60,ENTRY-DN,16:42:25
+21,TS11,junction_congestion,60205,100,ENTRY-UP,16:43:25
+21,TS14,junction_congestion,61845,100,ENTRY-DN,17:10:45
+21,TS12,junction_congestion,61945,60,ENTRY-UP,17:12:25
+21,TS04,junction_congestion,62845,60,ENTRY-DN,17:27:25
+21,TS11,junction_congestion,63005,60,ENTRY-DN,17:30:05
+21,TS07,junction_congestion,64545,100,ENTRY-UP,17:55:45
+21,TS14,junction_congestion,64645,160,ENTRY-UP,17:57:25
+21,TS17,junction_congestion,65445,100,ENTRY-DN,18:10:45
+21,TS08,junction_congestion,65605,100,ENTRY-DN,18:13:25
+21,TS07,junction_congestion,67345,60,ENTRY-DN,18:42:25
+21,TS14,junction_congestion,67505,60,ENTRY-DN,18:45:05
+21,TS17,junction_congestion,68245,60,ENTRY-UP,18:57:25
+21,TS08,junction_congestion,68405,60,ENTRY-UP,19:00:05
+21,TS23,junction_congestion,68575,50,ENTRY-UP,19:02:55
+21,TS11,in_service,71165,369,leg DN,19:46:05
+21,TS04,reception_wait,73705,50,RECEPTION,20:28:25
+22,TS14,preparation,17040,332,,04:44:00
+22,TS24,preparation,14520,270,,04:02:00
+22,TS24,induction_track_wait,16380,135,ENTRY-DN,04:33:00
+22,TS09,induction_track_wait,16380,420,ENTRY-UP,04:33:00
+22,TS08,induction_track_wait,16560,495,ENTRY-UP,04:36:00
+22,TS15,induction_track_wait,16500,840,ENTRY-DN,04:35:00
+22,TS18,induction_track_wait,16620,975,ENTRY-DN,04:37:00
+22,TS08,in_service,22807,26,leg DN,06:20:07
+22,TS11,induction_track_wait,23700,255,ENTRY-UP,06:35:00
+22,TS23,junction_congestion,24937,108,ENTRY-DN,06:55:37
+22,TS05,induction_track_wait,24600,255,ENTRY-UP,06:50:00
+22,TS20,junction_congestion,26737,108,ENTRY-UP,07:25:37
+22,TS02,induction_track_wait,26400,255,ENTRY-DN,07:20:00
+22,TS11,junction_congestion,27007,108,ENTRY-DN,07:30:07
+22,TS17,junction_congestion,27637,108,ENTRY-UP,07:40:37
+22,TS23,junction_congestion,27745,168,ENTRY-UP,07:42:25
+22,TS04,induction_track_wait,27300,255,ENTRY-DN,07:35:00
+22,TS05,junction_congestion,27907,108,ENTRY-DN,07:45:07
+22,TS09,junction_congestion,27937,144,ENTRY-UP,07:45:37
+22,TS08,junction_congestion,28233,16,ENTRY-UP,07:50:33
+22,TS16,induction_track_wait,28200,160,ENTRY-DN,07:50:00
+22,TS18,junction_congestion,28747,58,ENTRY-DN,07:59:07
+22,TS20,junction_congestion,29545,60,ENTRY-DN,08:12:25
+22,TS11,junction_congestion,29815,60,ENTRY-UP,08:16:55
+22,TS17,junction_congestion,30445,60,ENTRY-DN,08:27:25
+22,TS23,junction_congestion,30613,60,ENTRY-DN,08:30:13
+22,TS05,junction_congestion,30715,60,ENTRY-UP,08:31:55
+22,TS09,junction_congestion,30781,60,ENTRY-DN,08:33:01
+22,TS08,junction_congestion,30949,60,ENTRY-DN,08:35:49
+22,TS18,junction_congestion,31505,60,ENTRY-UP,08:45:05
+22,TS02,in_service,35107,184,leg DN,09:45:07
+22,TS02,junction_congestion,35291,152,ENTRY-UP,09:48:11
+22,TS15,reception_wait,36577,42,RECEPTION,10:09:37
+22,TS16,reception_wait,36797,32,RECEPTION,10:13:17
+22,TS18,reception_wait,36965,74,RECEPTION,10:16:05
+22,TS02,reception_wait,38143,42,RECEPTION,10:35:43
+22,TS10,junction_congestion,46537,108,ENTRY-DN,12:55:37
+22,TS17,junction_congestion,46705,108,ENTRY-DN,12:58:25
+22,TS23,junction_congestion,46873,108,ENTRY-DN,13:01:13
+22,TS10,junction_congestion,49345,60,ENTRY-UP,13:42:25
+22,TS17,junction_congestion,49513,60,ENTRY-UP,13:45:13
+22,TS23,junction_congestion,49681,60,ENTRY-UP,13:48:01
+22,TS22,in_service,51037,83,leg DN,14:10:37
+22,TS17,in_service,54973,231,leg DN,15:16:13
+22,TS17,junction_congestion,55204,105,ENTRY-UP,15:20:04
+22,TS24,junction_congestion,57367,78,ENTRY-UP,15:56:07
+22,TS25,junction_congestion,60037,108,ENTRY-DN,16:40:37
+22,TS24,junction_congestion,60145,168,ENTRY-DN,16:42:25
+22,TS05,junction_congestion,60475,6,ENTRY-DN,16:47:55
+22,TS07,junction_congestion,60937,108,ENTRY-DN,16:55:37
+22,TS22,junction_congestion,61920,25,ENTRY-UP,17:12:00
+22,TS25,junction_congestion,62845,60,ENTRY-UP,17:27:25
+22,TS24,junction_congestion,63013,60,ENTRY-UP,17:30:13
+22,TS05,junction_congestion,63181,60,ENTRY-UP,17:33:01
+22,TS12,junction_congestion,63637,108,ENTRY-UP,17:40:37
+22,TS07,junction_congestion,63745,168,ENTRY-UP,17:42:25
+22,TS22,junction_congestion,64645,60,ENTRY-DN,17:57:25
+22,TS01,junction_congestion,65437,108,ENTRY-DN,18:10:37
+22,TS25,junction_congestion,65605,108,ENTRY-DN,18:13:25
+22,TS24,junction_congestion,65773,108,ENTRY-DN,18:16:13
+22,TS05,junction_congestion,65941,108,ENTRY-DN,18:19:01
+22,TS12,junction_congestion,66445,60,ENTRY-DN,18:27:25
+22,TS07,junction_congestion,66613,60,ENTRY-DN,18:30:13
+22,TS01,junction_congestion,68245,60,ENTRY-UP,18:57:25
+22,TS25,junction_congestion,68413,60,ENTRY-UP,19:00:13
+22,TS24,junction_congestion,68581,60,ENTRY-UP,19:03:01
+22,TS05,junction_congestion,68749,60,ENTRY-UP,19:05:49
+22,TS22,in_service,70105,156,leg UP,19:28:25
+22,TS10,in_service,71005,278,leg DN,19:43:25
+22,TS01,reception_wait,71005,42,RECEPTION,19:43:25
+22,TS23,junction_congestion,71341,110,ENTRY-UP,19:49:01
+22,TS17,junction_congestion,71509,110,ENTRY-UP,19:51:49
+22,TS07,in_service,72073,88,leg UP,20:01:13
+22,TS20,reception_wait,75505,42,RECEPTION,20:58:25
+22,TS17,reception_wait,77019,42,RECEPTION,21:23:39
+23,TS02,preparation,16560,393,,04:36:00
+23,TS05,preparation,16080,622,,04:28:00
+23,TS06,preparation,15360,2234,,04:16:00
+23,TS09,preparation,15720,752,,04:22:00
+23,TS11,preparation,16920,1343,,04:42:00
+23,TS15,preparation,14880,1147,,04:08:00
+23,TS16,preparation,14520,464,,04:02:00
+23,TS18,preparation,14760,1699,,04:06:00
+23,TS19,preparation,15120,22,,04:12:00
+23,TS07,induction_track_wait,16680,225,ENTRY-UP,04:38:00
+23,TS24,induction_track_wait,16800,420,ENTRY-DN,04:40:00
+23,TS14,induction_track_wait,17220,285,ENTRY-DN,04:47:00
+23,TS03,induction_track_wait,16980,840,ENTRY-UP,04:43:00
+23,TS24,in_service,25645,381,leg DN,07:07:25
+23,TS24,junction_congestion,26026,129,ENTRY-UP,07:13:46
+23,TS22,in_service,29965,4,leg UP,08:19:25
+23,TS14,in_service,31345,240,leg DN,08:42:25
+23,TS24,in_service,31555,18,leg DN,08:45:55
+23,TS14,junction_congestion,31585,198,ENTRY-UP,08:46:25
+23,TS15,induction_track_wait,23700,8844,ENTRY-DN,06:35:00
+23,TS10,induction_track_wait,25500,7359,ENTRY-UP,07:05:00
+23,TS23,induction_track_wait,26400,6744,ENTRY-UP,07:20:00
+23,TS07,junction_congestion,33445,189,ENTRY-UP,09:17:25
+23,TS01,induction_track_wait,25500,8059,ENTRY-UP,07:05:00
+23,TS08,induction_track_wait,28200,5544,ENTRY-DN,07:50:00
+23,TS12,induction_track_wait,28200,5998,ENTRY-DN,07:50:00
+23,TS14,junction_congestion,34483,190,ENTRY-DN,09:34:43
+23,TS13,induction_track_wait,31680,2903,ENTRY-DN,08:48:00
+23,TS19,junction_congestion,34825,248,ENTRY-DN,09:40:25
+23,TS25,induction_track_wait,28200,6798,ENTRY-DN,07:50:00
+23,TS22,junction_congestion,35369,104,ENTRY-DN,09:49:29
+23,TS15,in_service,35584,54,leg DN,09:53:04
+23,TS16,junction_congestion,35845,3,ENTRY-UP,09:57:25
+23,TS24,junction_congestion,36973,21,ENTRY-UP,10:16:13
+23,TS19,junction_congestion,37773,60,ENTRY-UP,10:29:33
+23,TS25,junction_congestion,38023,20,ENTRY-UP,10:33:43
+23,TS22,junction_congestion,38173,80,ENTRY-UP,10:36:13
+23,TS16,reception_wait,38548,30,RECEPTION,10:42:28
+23,TS01,in_service,39284,223,leg DN,10:54:44
+23,TS14,in_service,40073,138,leg UP,11:07:53
+23,TS22,in_service,43653,162,leg DN,12:07:33
+23,TS07,in_service,44434,144,leg DN,12:20:34
+23,TS08,in_service,47584,47,leg DN,13:13:04
+23,TS24,junction_congestion,47794,47,ENTRY-UP,13:16:34
+23,TS22,in_service,49215,94,leg DN,13:40:15
+23,TS05,in_service,53725,218,leg UP,14:55:25
+23,TS25,in_service,56943,37,leg UP,15:49:03
+23,TS17,induction_track_wait,60600,103,ENTRY-UP,16:50:00
+23,TS01,junction_congestion,61107,71,ENTRY-UP,16:58:27
+23,TS02,induction_track_wait,60600,441,ENTRY-DN,16:50:00
+23,TS24,junction_congestion,61341,190,ENTRY-DN,17:02:21
+23,TS21,induction_track_wait,61500,453,ENTRY-UP,17:05:00
+23,TS25,in_service,62380,265,leg UP,17:19:40
+23,TS22,junction_congestion,62809,46,ENTRY-DN,17:26:49
+23,TS04,induction_track_wait,63300,103,ENTRY-DN,17:35:00
+23,TS17,junction_congestion,63728,150,ENTRY-DN,17:42:08
+23,TS01,junction_congestion,63878,210,ENTRY-DN,17:44:38
+23,TS24,junction_congestion,64231,60,ENTRY-UP,17:50:31
+23,TS20,in_service,67225,118,leg DN,18:40:25
+23,TS05,junction_congestion,67443,110,ENTRY-UP,18:44:03
+23,TS21,junction_congestion,67693,70,ENTRY-UP,18:48:13
+23,TS07,in_service,68878,785,leg UP,19:07:58
+23,TS07,junction_congestion,69663,35,ENTRY-DN,19:21:03
+23,TS19,reception_wait,72933,50,RECEPTION,20:15:33
+23,TS05,reception_wait,72953,270,RECEPTION,20:15:53
+23,TS22,in_service,81755,60,leg DN,22:42:35
+24,TS16,induction_track_wait,16380,135,ENTRY-DN,04:33:00
+24,TS08,induction_track_wait,16500,300,ENTRY-UP,04:35:00
+24,TS03,induction_track_wait,16800,255,ENTRY-DN,04:40:00
+24,TS11,induction_track_wait,16800,540,ENTRY-UP,04:40:00
+24,TS15,induction_track_wait,16860,735,ENTRY-UP,04:41:00
+24,TS11,in_service,23085,47,leg DN,06:24:45
+24,TS12,junction_congestion,25845,100,ENTRY-UP,07:10:45
+24,TS16,junction_congestion,27675,70,ENTRY-DN,07:41:15
+24,TS19,induction_track_wait,27300,255,ENTRY-UP,07:35:00
+24,TS08,junction_congestion,27945,70,ENTRY-UP,07:45:45
+24,TS12,junction_congestion,28645,60,ENTRY-DN,07:57:25
+24,TS22,induction_track_wait,29100,255,ENTRY-UP,08:05:00
+24,TS23,junction_congestion,30345,100,ENTRY-DN,08:25:45
+24,TS16,junction_congestion,30445,60,ENTRY-UP,08:27:25
+24,TS14,induction_track_wait,30000,365,ENTRY-UP,08:20:00
+24,TS08,junction_congestion,30715,60,ENTRY-DN,08:31:55
+24,TS23,junction_congestion,33145,60,ENTRY-UP,09:12:25
+24,TS19,junction_congestion,33315,50,ENTRY-UP,09:15:15
+24,TS08,junction_congestion,33475,50,ENTRY-UP,09:17:55
+24,TS16,reception_wait,35905,210,RECEPTION,09:58:25
+24,TS10,junction_congestion,60045,100,ENTRY-DN,16:40:45
+24,TS10,junction_congestion,62845,60,ENTRY-UP,17:27:25
+24,TS24,junction_congestion,63645,100,ENTRY-UP,17:40:45
+24,TS05,induction_track_wait,63300,305,ENTRY-UP,17:35:00
+24,TS04,induction_track_wait,63300,540,ENTRY-UP,17:35:00
+24,TS24,junction_congestion,66445,60,ENTRY-DN,18:27:25
+24,TS25,in_service,69945,1,leg UP,19:25:45
+25,TS09,preparation,16680,1,,04:38:00
+25,TS25,preparation,15240,414,,04:14:00
+25,TS02,induction_track_wait,16680,30,ENTRY-UP,04:38:00
+25,TS15,induction_track_wait,16740,225,ENTRY-DN,04:39:00
+25,TS18,induction_track_wait,16980,270,ENTRY-UP,04:43:00
+25,TS12,induction_track_wait,17220,285,ENTRY-DN,04:47:00
+25,TS14,induction_track_wait,22800,70,ENTRY-UP,06:20:00
+25,TS07,induction_track_wait,24600,160,ENTRY-UP,06:50:00
+25,TS19,induction_track_wait,25500,70,ENTRY-DN,07:05:00
+25,TS14,junction_congestion,25915,100,ENTRY-DN,07:11:55
+25,TS21,junction_congestion,26745,100,ENTRY-UP,07:25:45
+25,TS25,induction_track_wait,26400,255,ENTRY-DN,07:20:00
+25,TS03,induction_track_wait,27300,160,ENTRY-DN,07:35:00
+25,TS07,junction_congestion,27805,100,ENTRY-DN,07:43:25
+25,TS14,junction_congestion,28715,60,ENTRY-UP,07:58:35
+25,TS21,junction_congestion,29545,60,ENTRY-DN,08:12:25
+25,TS07,junction_congestion,30605,60,ENTRY-UP,08:30:05
+25,TS16,induction_track_wait,30900,70,ENTRY-DN,08:35:00
+25,TS19,junction_congestion,31315,100,ENTRY-DN,08:41:55
+25,TS14,junction_congestion,31475,100,ENTRY-DN,08:44:35
+25,TS15,in_service,33525,127,leg UP,09:18:45
+25,TS19,junction_congestion,34115,60,ENTRY-UP,09:28:35
+25,TS14,junction_congestion,34275,60,ENTRY-UP,09:31:15
+25,TS16,in_service,44815,43,leg DN,12:26:55
+25,TS19,junction_congestion,44975,43,ENTRY-UP,12:29:35
+25,TS03,in_service,46705,454,leg DN,12:58:25
+25,TS02,in_service,57555,23,leg UP,15:59:15
+25,TS09,junction_congestion,58245,100,ENTRY-UP,16:10:45
+25,TS05,junction_congestion,59145,100,ENTRY-DN,16:25:45
+25,TS01,junction_congestion,60945,100,ENTRY-DN,16:55:45
+25,TS09,junction_congestion,61045,160,ENTRY-DN,16:57:25
+25,TS17,junction_congestion,61845,100,ENTRY-UP,17:10:45
+25,TS05,junction_congestion,61945,160,ENTRY-UP,17:12:25
+25,TS20,junction_congestion,62745,100,ENTRY-DN,17:25:45
+25,TS02,junction_congestion,62978,27,ENTRY-DN,17:29:38
+25,TS01,junction_congestion,63745,60,ENTRY-UP,17:42:25
+25,TS09,junction_congestion,63905,60,ENTRY-UP,17:45:05
+25,TS17,junction_congestion,64645,60,ENTRY-DN,17:57:25
+25,TS05,junction_congestion,64805,60,ENTRY-DN,18:00:05
+25,TS20,junction_congestion,65545,60,ENTRY-UP,18:12:25
+25,TS02,junction_congestion,65705,60,ENTRY-UP,18:15:05
+25,TS16,in_service,66458,70,leg DN,18:27:38
+25,TS19,junction_congestion,66618,70,ENTRY-UP,18:30:18
+25,TS13,in_service,75345,193,leg DN,20:55:45
+25,TS13,junction_congestion,75538,127,ENTRY-UP,20:58:58
+25,TS05,in_service,81065,168,leg UP,22:31:05
+26,TS10,preparation,15600,215,,04:20:00
+26,TS07,induction_track_wait,16080,30,ENTRY-DN,04:28:00
+26,TS01,induction_track_wait,16200,165,ENTRY-DN,04:30:00
+26,TS18,induction_track_wait,16560,90,ENTRY-UP,04:36:00
+26,TS08,induction_track_wait,16620,285,ENTRY-DN,04:37:00
+26,TS25,induction_track_wait,16680,510,ENTRY-UP,04:38:00
+26,TS15,induction_track_wait,25500,10,ENTRY-DN,07:05:00
+26,TS24,junction_congestion,27645,100,ENTRY-UP,07:40:45
+26,TS18,junction_congestion,27795,110,ENTRY-UP,07:43:15
+26,TS11,induction_track_wait,28200,10,ENTRY-UP,07:50:00
+26,TS15,junction_congestion,28555,100,ENTRY-UP,07:55:55
+26,TS10,junction_congestion,30345,100,ENTRY-DN,08:25:45
+26,TS24,junction_congestion,30445,160,ENTRY-DN,08:27:25
+26,TS18,junction_congestion,30605,160,ENTRY-DN,08:30:05
+26,TS15,junction_congestion,31355,60,ENTRY-DN,08:42:35
+26,TS10,junction_congestion,33145,60,ENTRY-UP,09:12:25
+26,TS24,junction_congestion,33305,60,ENTRY-UP,09:15:05
+26,TS18,junction_congestion,33465,60,ENTRY-UP,09:17:45
+26,TS02,junction_congestion,60045,100,ENTRY-UP,16:40:45
+26,TS02,junction_congestion,62845,60,ENTRY-DN,17:27:25
+26,TS08,in_service,68565,120,leg DN,19:02:45
+26,TS24,in_service,73865,46,leg UP,20:31:05
+27,TS01,preparation,15240,1247,,04:14:00
+27,TS02,preparation,17160,41,,04:46:00
+27,TS13,preparation,15000,788,,04:10:00
+27,TS06,induction_track_wait,15960,135,ENTRY-DN,04:26:00
+27,TS17,induction_track_wait,16200,180,ENTRY-DN,04:30:00
+27,TS18,induction_track_wait,16620,30,ENTRY-UP,04:37:00
+27,TS22,induction_track_wait,16680,225,ENTRY-DN,04:38:00
+27,TS16,induction_track_wait,16740,450,ENTRY-UP,04:39:00
+27,TS08,induction_track_wait,25500,10,ENTRY-DN,07:05:00
+27,TS15,induction_track_wait,27300,355,ENTRY-UP,07:35:00
+27,TS18,junction_congestion,30495,10,ENTRY-DN,08:28:15
+27,TS17,in_service,46425,79,leg DN,12:53:45
+27,TS24,junction_congestion,64545,100,ENTRY-DN,17:55:45
+27,TS01,induction_track_wait,64200,255,ENTRY-UP,17:50:00
+27,TS24,junction_congestion,67345,60,ENTRY-UP,18:42:25
+28,TS02,preparation,14520,636,,04:02:00
+28,TS17,preparation,15720,478,,04:22:00
+28,TS14,induction_track_wait,16380,75,ENTRY-DN,04:33:00
+28,TS02,induction_track_wait,16380,360,ENTRY-UP,04:33:00
+28,TS10,induction_track_wait,16620,375,ENTRY-DN,04:37:00
+28,TS19,induction_track_wait,16380,900,ENTRY-DN,04:33:00
+28,TS09,induction_track_wait,16740,795,ENTRY-UP,04:39:00
+28,TS14,junction_congestion,22207,138,ENTRY-DN,06:10:07
+28,TS11,induction_track_wait,23700,255,ENTRY-UP,06:35:00
+28,TS14,junction_congestion,25045,60,ENTRY-UP,06:57:25
+28,TS07,junction_congestion,25837,108,ENTRY-DN,07:10:37
+28,TS09,junction_congestion,25987,126,ENTRY-DN,07:13:07
+28,TS13,junction_congestion,26737,108,ENTRY-UP,07:25:37
+28,TS18,junction_congestion,27637,108,ENTRY-DN,07:40:37
+28,TS14,junction_congestion,27805,108,ENTRY-DN,07:43:25
+28,TS25,induction_track_wait,27300,255,ENTRY-UP,07:35:00
+28,TS02,junction_congestion,27877,138,ENTRY-UP,07:44:37
+28,TS04,junction_congestion,28537,108,ENTRY-UP,07:55:37
+28,TS07,junction_congestion,28645,168,ENTRY-UP,07:57:25
+28,TS01,induction_track_wait,28200,481,ENTRY-UP,07:50:00
+28,TS09,junction_congestion,28813,328,ENTRY-UP,08:00:13
+28,TS15,induction_track_wait,28200,824,ENTRY-UP,07:50:00
+28,TS13,junction_congestion,29545,60,ENTRY-DN,08:12:25
+28,TS18,junction_congestion,30445,60,ENTRY-UP,08:27:25
+28,TS14,junction_congestion,30613,60,ENTRY-UP,08:30:13
+28,TS02,junction_congestion,30715,60,ENTRY-DN,08:31:55
+28,TS04,junction_congestion,31345,60,ENTRY-DN,08:42:25
+28,TS07,junction_congestion,31513,60,ENTRY-DN,08:45:13
+28,TS01,junction_congestion,31733,8,ENTRY-DN,08:48:53
+28,TS09,junction_congestion,31841,68,ENTRY-DN,08:50:41
+28,TS15,junction_congestion,32061,16,ENTRY-DN,08:54:21
+28,TS18,in_service,33205,125,leg UP,09:13:25
+28,TS10,in_service,33547,7,leg UP,09:19:07
+28,TS25,in_service,38707,150,leg DN,10:45:07
+28,TS17,junction_congestion,45637,108,ENTRY-DN,12:40:37
+28,TS13,junction_congestion,45805,108,ENTRY-DN,12:43:25
+28,TS17,junction_congestion,48445,60,ENTRY-UP,13:27:25
+28,TS13,junction_congestion,48613,60,ENTRY-UP,13:30:13
+28,TS15,in_service,56377,61,leg DN,15:39:37
+28,TS21,in_service,57337,111,leg DN,15:55:37
+28,TS24,junction_congestion,58237,108,ENTRY-UP,16:10:37
+28,TS20,induction_track_wait,57900,255,ENTRY-DN,16:05:00
+28,TS07,junction_congestion,58573,42,ENTRY-DN,16:16:13
+28,TS23,junction_congestion,60937,108,ENTRY-DN,16:55:37
+28,TS24,junction_congestion,61045,168,ENTRY-DN,16:57:25
+28,TS19,induction_track_wait,60600,255,ENTRY-UP,16:50:00
+28,TS20,junction_congestion,61207,108,ENTRY-UP,17:00:07
+28,TS07,junction_congestion,61315,168,ENTRY-UP,17:01:55
+28,TS14,induction_track_wait,60600,540,ENTRY-DN,16:50:00
+28,TS06,junction_congestion,63637,108,ENTRY-UP,17:40:37
+28,TS23,junction_congestion,63745,168,ENTRY-UP,17:42:25
+28,TS01,induction_track_wait,63300,255,ENTRY-DN,17:35:00
+28,TS19,junction_congestion,63907,108,ENTRY-DN,17:45:07
+28,TS24,junction_congestion,63913,168,ENTRY-UP,17:45:13
+28,TS20,junction_congestion,64015,168,ENTRY-DN,17:46:55
+28,TS16,induction_track_wait,63300,664,ENTRY-UP,17:35:00
+28,TS07,junction_congestion,64183,168,ENTRY-DN,17:49:43
+28,TS14,junction_congestion,64177,232,ENTRY-UP,17:49:37
+28,TS03,junction_congestion,64537,40,ENTRY-UP,17:55:37
+28,TS17,junction_congestion,64705,40,ENTRY-UP,17:58:25
+28,TS13,junction_congestion,64873,40,ENTRY-UP,18:01:13
+28,TS06,junction_congestion,66445,60,ENTRY-DN,18:27:25
+28,TS23,junction_congestion,66613,60,ENTRY-DN,18:30:13
+28,TS19,junction_congestion,66715,60,ENTRY-UP,18:31:55
+28,TS24,junction_congestion,66781,60,ENTRY-DN,18:33:01
+28,TS20,junction_congestion,66883,60,ENTRY-UP,18:34:43
+28,TS16,junction_congestion,67001,8,ENTRY-DN,18:36:41
+28,TS07,junction_congestion,67051,60,ENTRY-UP,18:37:31
+28,TS14,junction_congestion,67109,68,ENTRY-DN,18:38:29
+28,TS15,junction_congestion,67238,41,ENTRY-UP,18:40:38
+28,TS03,junction_congestion,67277,68,ENTRY-DN,18:41:17
+28,TS17,junction_congestion,67445,68,ENTRY-DN,18:44:05
+28,TS13,junction_congestion,67613,68,ENTRY-DN,18:46:53
+28,TS23,reception_wait,72073,144,RECEPTION,20:01:13
+28,TS19,reception_wait,72175,252,RECEPTION,20:02:55
+28,TS14,reception_wait,72577,60,RECEPTION,20:09:37
+28,TS24,in_service,74941,691,leg DN,20:49:01
+28,TS16,reception_wait,75109,144,RECEPTION,20:51:49
+28,TS24,junction_congestion,75632,149,ENTRY-UP,21:00:32
+28,TS13,junction_congestion,75781,168,ENTRY-UP,21:03:01
+29,TS02,preparation,16680,20,,04:38:00
+29,TS09,preparation,14640,269,,04:04:00
+29,TS17,preparation,15360,907,,04:16:00
+29,TS25,induction_track_wait,16320,135,ENTRY-UP,04:32:00
+29,TS01,induction_track_wait,16440,300,ENTRY-DN,04:34:00
+29,TS13,induction_track_wait,16680,315,ENTRY-UP,04:38:00
+29,TS12,induction_track_wait,16740,540,ENTRY-DN,04:39:00
+29,TS25,junction_congestion,22207,138,ENTRY-UP,06:10:07
+29,TS07,induction_track_wait,22800,100,ENTRY-DN,06:20:00
+29,TS20,induction_track_wait,23700,255,ENTRY-DN,06:35:00
+29,TS04,junction_congestion,24277,138,ENTRY-DN,06:44:37
+29,TS05,in_service,24637,57,leg DN,06:50:37
+29,TS25,junction_congestion,25045,60,ENTRY-DN,06:57:25
+29,TS10,induction_track_wait,24600,373,ENTRY-DN,06:50:00
+29,TS19,induction_track_wait,26400,255,ENTRY-DN,07:20:00
+29,TS04,junction_congestion,27115,60,ENTRY-UP,07:31:55
+29,TS11,junction_congestion,27637,108,ENTRY-DN,07:40:37
+29,TS18,induction_track_wait,27300,313,ENTRY-DN,07:35:00
+29,TS01,junction_congestion,27877,196,ENTRY-DN,07:44:37
+29,TS13,junction_congestion,28147,46,ENTRY-UP,07:49:07
+29,TS21,junction_congestion,29437,108,ENTRY-DN,08:10:37
+29,TS20,junction_congestion,29707,6,ENTRY-DN,08:15:07
+29,TS04,junction_congestion,29875,6,ENTRY-DN,08:17:55
+29,TS11,junction_congestion,30445,60,ENTRY-UP,08:27:25
+29,TS18,junction_congestion,30665,8,ENTRY-UP,08:31:05
+29,TS01,junction_congestion,30773,68,ENTRY-UP,08:32:53
+29,TS21,junction_congestion,32245,60,ENTRY-UP,08:57:25
+29,TS20,junction_congestion,32413,60,ENTRY-UP,09:00:13
+29,TS04,junction_congestion,32581,60,ENTRY-UP,09:03:01
+29,TS11,in_service,33205,41,leg UP,09:13:25
+29,TS18,junction_congestion,33373,41,ENTRY-DN,09:16:13
+29,TS01,junction_congestion,33541,41,ENTRY-DN,09:19:01
+29,TS19,in_service,40507,5,leg DN,11:15:07
+29,TS11,in_service,41346,214,leg DN,11:29:06
+29,TS11,junction_congestion,41560,122,ENTRY-UP,11:32:40
+29,TS01,junction_congestion,41682,168,ENTRY-UP,11:34:42
+29,TS04,in_service,43441,56,leg DN,12:04:01
+29,TS07,in_service,44837,273,leg UP,12:27:17
+29,TS17,junction_congestion,47437,108,ENTRY-DN,13:10:37
+29,TS17,junction_congestion,50245,60,ENTRY-UP,13:57:25
+29,TS15,junction_congestion,60037,108,ENTRY-UP,16:40:37
+29,TS03,induction_track_wait,59700,255,ENTRY-DN,16:35:00
+29,TS18,junction_congestion,60414,1,ENTRY-DN,16:46:54
+29,TS11,junction_congestion,60582,1,ENTRY-DN,16:49:42
+29,TS22,induction_track_wait,59700,540,ENTRY-UP,16:35:00
+29,TS13,junction_congestion,60593,92,ENTRY-UP,16:49:53
+29,TS01,junction_congestion,60750,1,ENTRY-DN,16:52:30
+29,TS09,induction_track_wait,60600,34,ENTRY-DN,16:50:00
+29,TS08,induction_track_wait,60600,255,ENTRY-DN,16:50:00
+29,TS07,junction_congestion,61310,5,ENTRY-DN,17:01:50
+29,TS15,junction_congestion,62845,60,ENTRY-DN,17:27:25
+29,TS18,junction_congestion,63115,60,ENTRY-UP,17:31:55
+29,TS11,junction_congestion,63283,60,ENTRY-UP,17:34:43
+29,TS13,junction_congestion,63385,60,ENTRY-DN,17:36:25
+29,TS01,junction_congestion,63451,60,ENTRY-UP,17:37:31
+29,TS09,junction_congestion,63671,8,ENTRY-UP,17:41:11
+29,TS25,induction_track_wait,63300,28,ENTRY-DN,17:35:00
+29,TS14,junction_congestion,63637,136,ENTRY-DN,17:40:37
+29,TS07,junction_congestion,64015,60,ENTRY-UP,17:46:55
+29,TS14,junction_congestion,66473,60,ENTRY-UP,18:27:53
+29,TS15,in_service,68305,5,leg UP,18:58:25
+29,TS25,in_service,71765,215,leg DN,19:56:05
+29,TS25,reception_wait,71980,9,RECEPTION,19:59:40
+29,TS07,reception_wait,72175,24,RECEPTION,20:02:55
+29,TS14,in_service,74633,29,leg UP,20:43:53
+29,TS21,in_service,75505,206,leg DN,20:58:25
+29,TS11,reception_wait,76843,42,RECEPTION,21:20:43

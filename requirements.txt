@@ -1,0 +1,19 @@
+# MetroSched – Python 3.11+
+# Phase 1 (simulation + synthetic data) needs only the first block.
+simpy>=4.1
+numpy>=1.26
+pandas>=2.1
+pyyaml>=6.0
+pytest>=8.0
+
+# Later phases (scheduler, RL agent, evaluation, dashboard)
+gymnasium>=0.29
+stable-baselines3>=2.3
+sb3-contrib>=2.3
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+streamlit>=1.50
+
+# Agentic AI layer (LLM agent with tool use) – agentic/
+anthropic>=2.9

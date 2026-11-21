@@ -1,0 +1,98 @@
+day,train_id,event_type,reason,start_time_s,planned_duration_s,end_time_s,start_time,end_time
+0,TS06,planned,scheduled maintenance (odometer),14400,7277,21677,04:00:00,06:01:17
+0,TS09,planned,scheduled maintenance (odometer),14400,8016,22416,04:00:00,06:13:36
+0,TS12,planned,scheduled maintenance (odometer),14400,12061,26461,04:00:00,07:21:01
+0,TS15,planned,scheduled maintenance (odometer),14400,9039,23439,04:00:00,06:30:39
+0,TS06,in_service_failure,in-service failure,72745,11338,84083,20:12:25,23:21:23
+1,TS17,planned,scheduled maintenance (odometer),14400,7969,22369,04:00:00,06:12:49
+1,TS21,planned,scheduled maintenance (odometer),14400,13474,27874,04:00:00,07:44:34
+1,TS24,planned,scheduled maintenance (odometer),14400,12590,26990,04:00:00,07:29:50
+1,TS23,in_service_failure,in-service failure,19645,7349,26994,05:27:25,07:29:54
+1,TS12,depot_fault,unexpected depot fault,51341,12752,64093,14:15:41,17:48:13
+1,TS24,depot_fault,unexpected depot fault,62164,9253,71417,17:16:04,19:50:17
+2,TS10,planned,scheduled maintenance (odometer),14400,5814,20214,04:00:00,05:36:54
+2,TS18,planned,scheduled maintenance (odometer),14400,5578,19978,04:00:00,05:32:58
+2,TS19,planned,scheduled maintenance (odometer),14400,7969,22369,04:00:00,06:12:49
+2,TS22,planned,scheduled maintenance (odometer),14400,6670,21070,04:00:00,05:51:10
+2,TS09,in_service_failure,in-service failure,48019,5728,53747,13:20:19,14:55:47
+2,TS05,depot_fault,unexpected depot fault,59683,9113,68796,16:34:43,19:06:36
+2,TS01,depot_fault,unexpected depot fault,59928,4811,64739,16:38:48,17:58:59
+3,TS06,planned,scheduled maintenance (odometer),14400,7739,22139,04:00:00,06:08:59
+3,TS22,planned,scheduled maintenance (odometer),14400,6857,21257,04:00:00,05:54:17
+3,TS24,planned,scheduled maintenance (odometer),14400,6537,20937,04:00:00,05:48:57
+3,TS24,depot_fault,unexpected depot fault,57306,11882,69188,15:55:06,19:13:08
+4,TS20,planned,scheduled maintenance (odometer),14400,4093,18493,04:00:00,05:08:13
+4,TS23,planned,scheduled maintenance (odometer),14400,12903,27303,04:00:00,07:35:03
+4,TS23,depot_fault,unexpected depot fault,45035,10994,56029,12:30:35,15:33:49
+4,TS20,depot_fault,unexpected depot fault,54769,6856,61625,15:12:49,17:07:05
+5,TS03,planned,scheduled maintenance (odometer),14400,8449,22849,04:00:00,06:20:49
+5,TS08,planned,scheduled maintenance (odometer),14400,8901,23301,04:00:00,06:28:21
+5,TS20,planned,scheduled maintenance (odometer),14400,10354,24754,04:00:00,06:52:34
+6,TS11,planned,scheduled maintenance (odometer),14400,8904,23304,04:00:00,06:28:24
+6,TS22,planned,scheduled maintenance (odometer),14400,12246,26646,04:00:00,07:24:06
+6,TS25,planned,scheduled maintenance (odometer),14400,10976,25376,04:00:00,07:02:56
+6,TS03,depot_fault,unexpected depot fault,65114,13828,78942,18:05:14,21:55:42
+7,TS20,in_service_failure,in-service failure,47145,8252,55397,13:05:45,15:23:17
+8,TS19,planned,scheduled maintenance (odometer),14400,6989,21389,04:00:00,05:56:29
+8,TS08,depot_fault,unexpected depot fault,15324,8980,24304,04:15:24,06:45:04
+8,TS24,depot_fault,unexpected depot fault,15996,13426,29422,04:26:36,08:10:22
+8,TS05,in_service_failure,in-service failure,64305,13039,77344,17:51:45,21:29:04
+8,TS06,in_service_failure,in-service failure,68445,5489,73934,19:00:45,20:32:14
+8,TS10,in_service_failure,in-service failure,75805,6115,81920,21:03:25,22:45:20
+9,TS01,planned,scheduled maintenance (odometer),14400,4302,18702,04:00:00,05:11:42
+9,TS25,planned,scheduled maintenance (odometer),14400,12814,27214,04:00:00,07:33:34
+10,TS08,planned,scheduled maintenance (odometer),14400,3873,18273,04:00:00,05:04:33
+10,TS09,planned,scheduled maintenance (odometer),14400,13205,27605,04:00:00,07:40:05
+11,TS06,planned,scheduled maintenance (odometer),14400,7226,21626,04:00:00,06:00:26
+12,TS22,planned,scheduled maintenance (odometer),14400,11474,25874,04:00:00,07:11:14
+13,TS05,planned,scheduled maintenance (odometer),14400,6840,21240,04:00:00,05:54:00
+13,TS17,planned,scheduled maintenance (odometer),14400,5159,19559,04:00:00,05:25:59
+13,TS18,planned,scheduled maintenance (odometer),14400,13860,28260,04:00:00,07:51:00
+13,TS08,depot_fault,unexpected depot fault,54761,10300,65061,15:12:41,18:04:21
+13,TS22,in_service_failure,in-service failure,70960,11911,82871,19:42:40,23:01:11
+14,TS23,planned,scheduled maintenance (odometer),14400,9145,23545,04:00:00,06:32:25
+14,TS07,in_service_failure,in-service failure,24765,13319,38084,06:52:45,10:34:44
+15,TS07,planned,scheduled maintenance (odometer),14400,6297,20697,04:00:00,05:44:57
+15,TS13,depot_fault,unexpected depot fault,32746,11472,44218,09:05:46,12:16:58
+16,TS19,planned,scheduled maintenance (odometer),14400,13494,27894,04:00:00,07:44:54
+16,TS20,planned,scheduled maintenance (odometer),14400,5210,19610,04:00:00,05:26:50
+16,TS23,planned,scheduled maintenance (odometer),14400,14149,28549,04:00:00,07:55:49
+16,TS02,depot_fault,unexpected depot fault,22369,9489,31858,06:12:49,08:50:58
+16,TS22,in_service_failure,in-service failure,35855,10409,46264,09:57:35,12:51:04
+17,TS14,planned,scheduled maintenance (odometer),14400,11686,26086,04:00:00,07:14:46
+17,TS16,planned,scheduled maintenance (odometer),14400,4025,18425,04:00:00,05:07:05
+17,TS21,planned,scheduled maintenance (odometer),14400,11617,26017,04:00:00,07:13:37
+18,TS07,planned,scheduled maintenance (odometer),14400,8743,23143,04:00:00,06:25:43
+18,TS08,planned,scheduled maintenance (odometer),14400,12704,27104,04:00:00,07:31:44
+18,TS16,in_service_failure,in-service failure,35707,4349,40056,09:55:07,11:07:36
+18,TS24,in_service_failure,in-service failure,67693,13812,81505,18:48:13,22:38:25
+19,TS17,planned,scheduled maintenance (odometer),14400,10165,24565,04:00:00,06:49:25
+19,TS18,planned,scheduled maintenance (odometer),14400,12583,26983,04:00:00,07:29:43
+19,TS12,depot_fault,unexpected depot fault,66728,12260,78988,18:32:08,21:56:28
+22,TS19,planned,scheduled maintenance (odometer),14400,9803,24203,04:00:00,06:43:23
+23,TS09,depot_fault,unexpected depot fault,26971,4829,31800,07:29:31,08:50:00
+23,TS03,in_service_failure,in-service failure,31765,13840,45605,08:49:25,12:40:05
+23,TS14,depot_fault,unexpected depot fault,59671,11580,71251,16:34:31,19:47:31
+23,TS17,in_service_failure,in-service failure,66698,6756,73454,18:31:38,20:24:14
+24,TS01,planned,scheduled maintenance (odometer),14400,8212,22612,04:00:00,06:16:52
+24,TS06,planned,scheduled maintenance (odometer),14400,5478,19878,04:00:00,05:31:18
+24,TS19,in_service_failure,in-service failure,68585,5486,74071,19:03:05,20:34:31
+24,TS06,depot_fault,unexpected depot fault,69097,12840,81937,19:11:37,22:45:37
+24,TS25,in_service_failure,in-service failure,70066,13232,83298,19:27:46,23:08:18
+25,TS11,planned,scheduled maintenance (odometer),14400,13764,28164,04:00:00,07:49:24
+25,TS24,depot_fault,unexpected depot fault,57670,12988,70658,16:01:10,19:37:38
+26,TS06,planned,scheduled maintenance (odometer),14400,6031,20431,04:00:00,05:40:31
+26,TS09,planned,scheduled maintenance (odometer),14400,13557,27957,04:00:00,07:45:57
+26,TS13,planned,scheduled maintenance (odometer),14400,8816,23216,04:00:00,06:26:56
+26,TS20,planned,scheduled maintenance (odometer),14400,12659,27059,04:00:00,07:30:59
+27,TS09,planned,scheduled maintenance (odometer),14400,3767,18167,04:00:00,05:02:47
+27,TS11,planned,scheduled maintenance (odometer),14400,5439,19839,04:00:00,05:30:39
+27,TS03,depot_fault,unexpected depot fault,20926,4856,25782,05:48:46,07:09:42
+27,TS08,in_service_failure,in-service failure,66475,11518,77993,18:27:55,21:39:53
+28,TS06,planned,scheduled maintenance (odometer),14400,13074,27474,04:00:00,07:37:54
+28,TS12,planned,scheduled maintenance (odometer),14400,12428,26828,04:00:00,07:27:08
+28,TS18,in_service_failure,in-service failure,33450,13848,47298,09:17:30,13:08:18
+28,TS25,in_service_failure,in-service failure,49777,11959,61736,13:49:37,17:08:56
+29,TS08,planned,scheduled maintenance (odometer),14400,8530,22930,04:00:00,06:22:10
+29,TS09,planned,scheduled maintenance (odometer),14400,6088,20488,04:00:00,05:41:28
+29,TS22,planned,scheduled maintenance (odometer),14400,4664,19064,04:00:00,05:17:44

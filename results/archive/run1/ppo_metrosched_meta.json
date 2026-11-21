@@ -1,0 +1,51 @@
+{
+  "timesteps": 400000,
+  "n_envs": 2,
+  "seed": 7,
+  "training_time_s": 1549.8,
+  "algorithm": "maskable_ppo",
+  "pretraining": {
+    "enabled": true,
+    "teacher": "Heuristic",
+    "episodes": 60,
+    "steps": 68596,
+    "teacher_train_mean_return": 22.328333333333337,
+    "bc_accuracy": 0.9689048924135518
+  },
+  "ppo": {
+    "algorithm": "maskable_ppo",
+    "learning_rate": 0.0001,
+    "n_steps": 2048,
+    "batch_size": 256,
+    "n_epochs": 10,
+    "gamma": 0.995,
+    "gae_lambda": 0.95,
+    "clip_range": 0.1,
+    "ent_coef": 0.002,
+    "vf_coef": 0.5,
+    "net_arch": [
+      128,
+      128
+    ]
+  },
+  "reward": {
+    "shortfall_per_train_min": 0.3,
+    "surplus_per_train_min": 0.03,
+    "waiting_per_train_min": 0.05,
+    "queue_event": 0.1,
+    "useful_induction": 0.5,
+    "missed_opportunity": 1.0,
+    "coverage_band_bonus": 0.05,
+    "delayed_train_per_min": 0.02,
+    "in_service_failure": 1.0,
+    "invalid_action": 0.1
+  },
+  "train_seed_range": [
+    0,
+    1000000
+  ],
+  "validation_seed_base": 500000000,
+  "obs_dim": 78,
+  "n_actions": 13,
+  "selected_model": "best validation return"
+}
